@@ -26,7 +26,7 @@ img {
 
 }
 
-@media (min-width: 980px) and (max-width: 1309) {
+@media (min-width: 980px) and (max-width: 1309px) {
  body { font-size:84%;
  line-height: 82%;}
  #maincontainer {
@@ -38,7 +38,7 @@ img {
 }
 }
 
-@media (min-width: 860px) and (max-width: 979) {
+@media (min-width: 860px) and (max-width: 979px) {
  body { font-size:75%;
  line-height: 75%;}
  #maincontainer {
@@ -82,7 +82,7 @@ img {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
- body { font-size:20%; 
+ body { font-size:25%; 
   line-height: 30%;}
   #maincontainer {
   background-position: 0px 15px;
@@ -224,8 +224,8 @@ img {
   /*width: 121px;
   height: 175px;
   margin: 9px;*/
-      border: 8px solid #ce080e;
-      font-family: 'Playfair Display', serif;
+/*      border: 8px solid #ce080e;
+*/      font-family: 'Playfair Display', serif;
       font-size: 3em;
       line-height: .9em;
       padding-left: 2%;
@@ -283,6 +283,9 @@ img {
 #contactinfo {
   text-align: center;
   display: none;
+  width: 100%;
+  position: absolute;
+  font-size: 1.2em; 
 }
 
 p a:hover {
@@ -295,12 +298,37 @@ p a:visited {
 }
 
 .b:hover{
--webkit-transform: scale(1.1);
--moz-transform: scale(1.1);
--o-transform: scale(1.1);
-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
     background-color: #ddd;
 }
+
+#job1, #job2, #job3 {
+  width: 99%;
+  height: 33%;
+}
+
+#job1:hover, #job2:hover, #job3:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+    background-color: #c1f4f3;
+}
+
+#job1 {
+background-color: green;
+}
+#job2 {
+  background-color: orange;
+}
+
+#job3 {
+  background-color: purple;
+}
+
 
 #myname {
   font-weight: bold;
@@ -319,4 +347,8 @@ transform: scale(1.1);
     left: 0;
     right: 0;
     z-index: 11;
+}
+
+p {
+  z-index: 20;
 }
