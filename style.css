@@ -23,7 +23,8 @@
 img {
   max-width: 50%;
 }
-
+/*also shrink the div pics are in
+*/
 }
 
 @media (min-width: 980px) and (max-width: 1309px) {
@@ -250,8 +251,8 @@ img {
       border: 9px solid pink;
 
 }
-
-
+/*I need to update height of content2 in @medias
+*/
 #content2 {  
     margin:30px auto;   
     border:1px dotted #ccc;  
@@ -338,6 +339,15 @@ background-color: green;
   position: relative;
   width: 24%;
   left: 2%;
+}
+
+.bigborder{
+  border: 20px solid black;
+      position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .a, .b, .c, .d, .e, .f, .g {
