@@ -5,15 +5,14 @@
 }
 
 #container {
-    background-color: #ddd;
+    /*background-color: #ddd;*/
 }
 
 #maincontainer {
   background: url('./name_site.png') no-repeat;
-          background-size: 16%;
+  background-size: 16%;
 
 }
-
 
 
 
@@ -26,9 +25,9 @@
 
 #containerc {
   display: inline-block;
-    position: relative;
-    width: 29%;
-    left: 10%;
+  position: relative;
+  width: 29%;
+  left: 13%;
 }
 
 #containerd {
@@ -60,30 +59,30 @@
 }
 
 #ad {
-    padding-top: 50%; /* 4:3 aspect ratio */
+    padding-top: 50%;
     background-color: white;
 }
 #bd {
-    padding-top: 40%; /* 4:3 aspect ratio */
+    padding-top: 40%;
 }
 
 #cd {
-    padding-top: 90%; /* 4:3 aspect ratio */
+    padding-top: 90%; 
     /*background-color: red;*/
     border-radius: 50%;
 }
 
 #dd {
-    padding-top: 70%; /* 4:3 aspect ratio */
+    padding-top: 70%;
     background-color: red;
     border-radius: 50%;
 }
 #ed {
-    padding-top: 60%; /* 4:3 aspect ratio */
+    padding-top: 60%; 
 /*    background-color: red;
 */}
 #fd {
-    padding-top: 60%; /* 4:3 aspect ratio */
+    padding-top: 60%;
 }
 
 #gd {
@@ -112,13 +111,12 @@
  /* width: 239px;
   height: 180px;
   margin: 9px;*/
-  background-image: url("./contact.png");
+/*  background-image: url("./contact.png");
   background-repeat: no-repeat;
   background-position: center;
-      background-color: #eee;
-      border: 9px solid #204ec1;
-          background-size: 70%;
-
+  background-color: #eee;
+  border: 9px solid #204ec1;*/
+  /*background-size: 70%;*/
 }
 
 .c {
@@ -126,8 +124,8 @@
   height: 269px;
   margin: 9px;*/
   background-image: url("./tracks.jpg");
-      border-radius: 50%;
-    background-size: 100%;
+  border-radius: 50%;
+  background-size: 100%;
 }
 
 .d {
@@ -135,8 +133,8 @@
   height: 200px;
   margin: 9px;*/
   background-image: url("./polka_dot_dress.jpg");
-      border-radius: 50%;
-        background-size: 108%;
+  border-radius: 50%;
+  background-size: 108%;
 
 }
 
