@@ -14,87 +14,6 @@
 
 }
 
-/* Large desktop */
-@media (min-width: 1310px) {
- body { font-size:100%;
- line-height: 100%;}
- #maincontainer {
-  background-position: 0px 255px;} 
-img {
-  max-width: 50%;
-}
-/*also shrink the div pics are in
-*/
-}
-
-@media (min-width: 980px) and (max-width: 1309px) {
- body { font-size:84%;
- line-height: 82%;}
- #maincontainer {
-  background-position: 0px 240px;
-  background-size: 18%;
-} 
-img {
-  max-width: 50%;
-}
-}
-
-@media (min-width: 860px) and (max-width: 979px) {
- body { font-size:75%;
- line-height: 75%;}
- #maincontainer {
-  background-position: 0px 230px;
-  background-size: 21%;
-
-} 
-img {
-  max-width: 50%;
-}
-}
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 859px) {
- body { font-size:60%;
-  line-height: 170%;}
-  #maincontainer {
-  background-position: 0px 160px;
-    background-size: 23%;
-}
- img {
-  max-width: 50%;
-
- }
-}
-
-/* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) {
- body { font-size:50%;
-  line-height: 120%;}
-  #maincontainer {
-  background-position: 0px 25px;
-    background-size: 30%;
-  }
-    img {
-  max-width: 7%;
-
-    }
-
-}
-
-/* Landscape phones and down */
-@media (max-width: 480px) {
- body { font-size:25%; 
-  line-height: 30%;}
-  #maincontainer {
-  background-position: 0px 15px;
-  background-size: 50%;
-}
-  img {
-  max-width: 5%;
-
-  } 
-}
-
 
 
 
@@ -363,7 +282,7 @@ p a:visited {
   width: 100%;
   height: 100%;
   position: absolute;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 
@@ -390,7 +309,197 @@ p {
 }
 
 .pictureContainer {
-    height: 83px;
+    height: 82px;
     width: 416px;
     overflow: hidden;
+   /*background-image: url("./contact.png");*/
+/*  background-repeat: no-repeat;
+  background-position: center;*/
+/*    background-color: #eee;
+    border: 9px solid #204ec1;*/
+    /*background-size: 70%;*/
+
 }
+
+.pictureContainer img {
+    position: relative;
+    top: 0px;
+
+    -webkit-transition: top .2s ease-in-out;
+    -moz-transition: top .2s ease-in-out;
+    -o-transition: top .2s ease-in-out;
+    transition: top .2s ease-in-out;
+
+}
+.pictureContainer img:hover {
+    top: -83px;
+}
+
+.pictureContainer img:active {
+  border: 2px solid black;
+}
+
+
+
+/************** AT MEDIA RULES ************/
+/* Large desktop */
+@media (min-width: 1310px) {
+ body { font-size:100%;
+ line-height: 100%;}
+ #maincontainer {
+  background-position: 0px 255px;} 
+#images img {
+  max-width: 50%;
+}
+/*also shrink the div pics are in
+*/
+}
+
+@media (min-width: 980px) and (max-width: 1309px) {
+ body { font-size:84%;
+ line-height: 82%;}
+ #maincontainer {
+  background-position: 0px 240px;
+  background-size: 18%;
+}
+
+.pictureContainer {
+    height: 57px;
+    width: 291px;
+}
+.pictureContainer img{
+  max-width: 291px;
+  max-height: 116px;
+}
+.pictureContainer img:hover {
+    top: -58px;
+}
+
+#images img {
+  max-width: 50%;
+}
+}
+
+@media (min-width: 860px) and (max-width: 979px) {
+ body { font-size:75%;
+ line-height: 75%;}
+ #maincontainer {
+  background-position: 0px 230px;
+  background-size: 21%;
+
+} 
+#images img {
+  max-width: 50%;
+}
+
+.pictureContainer {
+    height: 41px;
+    width: 208px;
+}
+.pictureContainer img{
+  max-width: 208px;
+  max-height: 82px;
+}
+.pictureContainer img:hover {
+    top: -41px;
+}
+
+     #contactinfo {
+  font-size: 2.1em;
+}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 859px) {
+ body { font-size:60%;
+  line-height: 170%;}
+  #maincontainer {
+  background-position: 0px 160px;
+    background-size: 23%;
+}
+ #images img {
+  max-width: 50%;
+ }
+
+ .pictureContainer {
+    height: 41px;
+    width: 208px;
+}
+.pictureContainer img{
+  max-width: 208px;
+  max-height: 82px;
+}
+.pictureContainer img:hover {
+    top: -41px;
+}
+      
+ #contactinfo {
+  font-size: 2.2em;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+ body { font-size:50%;
+  line-height: 120%;}
+  #maincontainer {
+  background-position: 0px 25px;
+    background-size: 30%;
+  }
+   #images img {
+  max-width: 7%;
+    }
+  
+.pictureContainer {
+    height: 41px;
+    width: 208px;
+}
+.pictureContainer img{
+  max-width: 208px;
+  max-height: 82px;
+}
+.pictureContainer img:hover {
+    top: -41px;
+}
+  #contactinfo {
+  font-size: 2.7em;
+}
+
+#containerc {
+  opacity: 0;
+}
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+ body { font-size:25%; 
+  line-height: 30%;}
+  #maincontainer {
+  background-position: 0px 15px;
+  background-size: 50%;
+}
+  #images img {
+  max-width: 5%;
+  } 
+.pictureContainer {
+    height: 41px;
+    width: 208px;
+}
+.pictureContainer img{
+  max-width: 208px;
+  max-height: 82px;
+}
+.pictureContainer img:hover {
+    top: -41px;
+}
+
+  #contactinfo {
+  font-size: 4.2em;
+}
+
+#containerc {
+  opacity: 0;
+}
+}
+/**************  ************/

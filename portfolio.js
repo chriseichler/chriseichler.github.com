@@ -15,7 +15,7 @@
 // });
 $(function() {
 
-  $('#objectb').on('click', function() {
+  $('.pictureContainer').on('click', function() {
     $('#maincontainer').fadeOut(900, function() {
       $('#contactinfo').fadeIn().css('display','inline-block');
     });
@@ -28,3 +28,5 @@ $(function() {
     });
   });
 });
+
+  // $(#containerf).append('<br>')
