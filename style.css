@@ -289,13 +289,6 @@ img {
     border:1px dotted #999;  
 }
 
-#contactinfo {
-  text-align: center;
-  display: none;
-  width: 100%;
-  position: absolute;
-  font-size: 1.2em; 
-}
 
 p a:hover {
   color: #787871;
@@ -364,13 +357,23 @@ p a:visited {
   /*width: 26%;*/
 }
 
-.bigborder{
-  border: 20px solid black;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+#contactinfo {
+  text-align: center;
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 1.2em;
+}
+
+
+.bigborder {
+  border: 30px solid black;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .a, .b, .c, .d, .e, .f, .g {
@@ -384,4 +387,10 @@ p a:visited {
 
 p {
   z-index: 20;
+}
+
+.pictureContainer {
+    height: 83px;
+    width: 416px;
+    overflow: hidden;
 }
