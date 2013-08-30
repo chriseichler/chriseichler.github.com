@@ -280,8 +280,8 @@ p a:visited {
   height: 100%;
   position: absolute;
   font-size: 1.4em;
+  background-color: #f7f0a3;
 }
-
 
 .bigborder {
   border: 30px solid black;
@@ -290,6 +290,16 @@ p a:visited {
   bottom: 0;
   left: 0;
   right: 0;
+  margin-left: -8px;
+  margin-top: -8px;
+}
+
+#returnclick {
+padding: 10px;
+width: 140px;
+margin-right: auto;
+margin-left: auto;
+border: 1px solid black;
 }
 
 .a, .b, .c, .d, .e, .f, .g {
