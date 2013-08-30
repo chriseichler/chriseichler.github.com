@@ -1,18 +1,4 @@
-// if (document.getElementById('content2')) {
-//   document.getElementById('pics').innerHTML =
-// }
-// $(selector).hide(speed,callback);
-// $(selector).show(speed,callback);
-// $('#objectb').click(function(){
-//       $('#another-element').toggle('slow');
-//   });
-// $(document).ready(function(){
-//         $("#contactinfo").hide();
-//         $("#objectb").show();
-//   $('#objectb').click(function(){
-//   $("#contactinfo").slideToggle();
-//   });
-// });
+
 $(function() {
 
   $('.pictureContainer').on('click', function() {
