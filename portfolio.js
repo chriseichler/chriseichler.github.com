@@ -1,7 +1,7 @@
 
 $(function() {
 
-  $('.pictureContainer').on('click', function() {
+  $('#contactbutton').on('click', function() {
     $('#maincontainer').fadeOut(900, function() {
       $('#contactinfo').fadeIn().css('display','inline-block');
     });

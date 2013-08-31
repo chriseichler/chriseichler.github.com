@@ -214,47 +214,47 @@ p a:visited {
   color: black;
   text-decoration: none;
 }
-
+/*
 .b:hover{
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
     background-color: #ddd;
-}
+}*/
 
-#job1, #job2, #job3 {
+/*#job1, #job2, #job3 {
   width: 99%;
   height: 33%;
-}
+}*/
 
-#job1:hover, #job2:hover, #job3:hover {
+/*#job1:hover, #job2:hover, #job3:hover {
   -webkit-transform: scale(1.06);
   -moz-transform: scale(1.06);
   -o-transform: scale(1.06);
   transform: scale(1.06);
     background-color: #c1f4f3;
-}
+}*/
 
 #job1 {
-  background-color: green;
-  background-image: url("./design.png");
-  background-size: 42%;
+  /*background-color: green;*/
+  /*background-image: url("./design.png");*/
+  /*background-size: 42%;*/
   background-repeat: no-repeat;
   background-position: center;
 }
 #job2 {
-  background-color: orange;
-  background-image: url("./development.png");
-  background-size: 70%;
+  /*background-color: orange;*/
+  /*background-image: url("./development.png");*/
+  /*background-size: 70%;*/
   background-repeat: no-repeat;
   background-position: center;
 
 }
 
 #job3 {
-  background-color: purple;
-  background-image: url("./photography.png");
+  /*background-color: purple;*/
+  /*background-image: url("./photography.png");*/
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
