@@ -178,14 +178,14 @@
 /*I need to update height of content2 in @medias
 */
 #content2 {  
-    margin:30px auto;   
+    margin: 30px auto;   
     border:1px dotted #ccc;  
     overflow-x: scroll;
     display: inline-block;
     position: relative;
-    width: 62%;
+    width: 66%;
     height: 500px;
-    left: 17%;
+    left: 15%;
 }
 
 #images {
@@ -376,6 +376,11 @@ p {
   background-size: 18%;
 }
 
+#content2 {  
+  width: 80%;
+    left: 9%;
+}
+
 .pictureContainer {
     height: 57px;
     width: 291px;
@@ -401,10 +406,13 @@ p {
   background-size: 21%;
 
 } 
-#images img {
+/*#images img {
   max-width: 50%;
+}*/
+#content2 {  
+  width: 85%;
+    left: 7%;
 }
-
 .pictureContainer {
     height: 41px;
     width: 208px;
@@ -430,10 +438,14 @@ p {
   background-position: 0px 160px;
     background-size: 23%;
 }
- #images img {
+/* #images img {
   max-width: 50%;
- }
+ }*/
+#content2 {  
+  width: 90%;
+    left: 5%;
 
+}
  .pictureContainer {
     height: 41px;
     width: 208px;
@@ -459,9 +471,13 @@ p {
   background-position: 0px 25px;
     background-size: 30%;
   }
-   #images img {
+/*   #images img {
   max-width: 7%;
-    }
+    }*/
+#content2 {  
+  width: 90%;
+  left: 4%;
+}
   
 .pictureContainer {
     height: 41px;
@@ -492,9 +508,14 @@ p {
   background-position: 0px 15px;
   background-size: 50%;
 }
-  #images img {
+/*  #images img {
   max-width: 5%;
-  } 
+  } */
+
+  #content2 {  
+    width: 90%;
+    left: 4%;
+}
 .pictureContainer {
     height: 41px;
     width: 208px;
