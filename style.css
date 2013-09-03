@@ -505,7 +505,7 @@ p {
 /* Landscape phones and down */
 @media (max-width: 480px) {
  body { font-size: 33%; 
-  line-height: 85%;}
+  line-height: 95%;}
   #maincontainer {
   background-position: 0px 15px;
   background-size: 50%;
