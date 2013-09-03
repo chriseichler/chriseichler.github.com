@@ -140,13 +140,9 @@
 .e {
   /*width: 121px;
   height: 175px;
-  margin: 9px;*/
-/*      border: 8px solid #ce080e;
-*/      font-family: 'Playfair Display', serif;
-      font-size: 3em;
-      line-height: .9em;
-      padding-left: 2%;
-      padding-bottom: 1%;
+  margin: 9px;*/ 
+  padding-left: 2%;
+  padding-bottom: 1%;
 }
 
 .f {
@@ -513,8 +509,8 @@ p {
   } */
 
   #content2 {  
-    width: 90%;
-    left: 4%;
+    width: 95%;
+    left: 2%;
 }
 .pictureContainer {
     height: 41px;
