@@ -41,7 +41,7 @@
     position: relative;
     width: 42%;
     left: 18%;
-}\n
+}
 
 #containerf {
   display: inline-block;
@@ -55,6 +55,7 @@
     position: relative;
     width: 62%;
     left: 17%;
+    margin-top: 31px;
 }
 
 #ad {
@@ -512,6 +513,9 @@ p {
 }
 .pictureContainer img:hover {
     top: -49px;
+}
+#containere {
+  left: 12%;
 }
 
 #containerg {
