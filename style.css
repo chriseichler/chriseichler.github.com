@@ -47,7 +47,7 @@
   display: inline-block;
     position: relative;
     width: 32%;
-    left: 18%;
+    /*left: 18%;*/
 }
 
 #containerg {
@@ -150,9 +150,6 @@
   height: 230px;
   margin: 9px;*/
   padding:12px;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(140, 140, 140)', endColorstr='rgb(290, 290, 290)'); /* for IE */
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(140, 140, 140)), to(rgb(290, 290, 290))); /* for webkit browsers */
-  background: -moz-linear-gradient(top,  rgb(140, 140, 140),  rgb(290, 290, 290)); /* for firefox 3.6+ */
   z-index: 40;
   height: auto !important; 
  height:100%;
@@ -166,7 +163,7 @@
   margin: 9px;
   margin-left: auto;
   margin-right: auto;*/
-      border: 9px solid gray;
+      border: 21px solid #c9c9c9;
         background-image: url("./losttribes.jpeg");
             background-size: 100%;
 
@@ -259,8 +256,8 @@ p a:visited {
 
 #myname {
   font-weight: bold;
-  font-family: 'Playfair Display', sans-serif;
-  font-size: 2.5em;
+/*  font-family: 'Playfair Display', sans-serif;
+*/  font-size: 2.5em;
   display: inline-block;
   position: relative;
   width: 24%;
@@ -276,7 +273,10 @@ p a:visited {
   height: 100%;
   position: absolute;
   font-size: 1.4em;
-  background-color: #f7f0a3;
+ /* background-color: #f7f0a3;*/
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(247, 240, 163)', endColorstr='rgb(290, 290, 290)'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(247, 240, 163)), to(rgb(290, 290, 290))); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  rgb(247, 240, 163),  rgb(290, 290, 290)); /* for firefox 3.6+ */
 }
 
 .bigborder {
@@ -486,6 +486,12 @@ p {
 .pictureContainer img:hover {
     top: -41px;
 }
+
+#containerg {
+  width: 82%;
+    left: 9%;
+
+}
   #contactinfo {
   font-size: 2.7em;
 }
@@ -498,8 +504,8 @@ p {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
- body { font-size:25%; 
-  line-height: 30%;}
+ body { font-size: 33%; 
+  line-height: 85%;}
   #maincontainer {
   background-position: 0px 15px;
   background-size: 50%;
@@ -522,6 +528,11 @@ p {
 }
 .pictureContainer img:hover {
     top: -41px;
+}
+
+#containerg {
+  width: 82%;
+  left: 9%;
 }
 
   #contactinfo {
