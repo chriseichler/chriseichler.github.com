@@ -339,9 +339,6 @@ p {
 }
 
 .pictureContainer img:active {
-  /*border: 2px solid black;*/
-    color: #fff;
-    box-shadow: 0 1px 0 #666, 0 2px 0 #444, 0 2px 2px rgba(0,0,0,0.9);
     -webkit-transform: translateY(3px);
     transform: translateY(3px);
     -webkit-animation: none;
@@ -410,17 +407,16 @@ p {
     left: 7%;
 }
 .pictureContainer {
-    height: 41px;
-    width: 208px;
+    height: 57px;
+    width: 291px;
 }
 .pictureContainer img{
-  max-width: 208px;
-  max-height: 82px;
+  max-width: 291px;
+  max-height: 116px;
 }
 .pictureContainer img:hover {
-    top: -41px;
+    top: -58px;
 }
-
      #contactinfo {
   font-size: 1.6em;
 }
@@ -443,15 +439,15 @@ p {
 
 }
  .pictureContainer {
-    height: 41px;
-    width: 208px;
+    height: 49px;
+    width: 236px;
 }
 .pictureContainer img{
-  max-width: 208px;
-  max-height: 82px;
+  max-width: 236px;
+  max-height: 98px;
 }
 .pictureContainer img:hover {
-    top: -41px;
+    top: -49px;
 }
       
  #contactinfo {
@@ -476,15 +472,15 @@ p {
 }
   
 .pictureContainer {
-    height: 41px;
-    width: 208px;
+    height: 49px;
+    width: 236px;
 }
 .pictureContainer img{
-  max-width: 208px;
-  max-height: 82px;
+  max-width: 236px;
+  max-height: 98px;
 }
 .pictureContainer img:hover {
-    top: -41px;
+    top: -49px;
 }
 
 #containerg {
@@ -519,15 +515,15 @@ p {
     left: 2%;
 }
 .pictureContainer {
-    height: 41px;
-    width: 208px;
+    height: 49px;
+    width: 236px;
 }
 .pictureContainer img{
-  max-width: 208px;
-  max-height: 82px;
+  max-width: 236px;
+  max-height: 98px;
 }
 .pictureContainer img:hover {
-    top: -41px;
+    top: -49px;
 }
 
 #containerg {
