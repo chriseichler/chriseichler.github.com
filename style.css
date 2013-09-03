@@ -41,7 +41,7 @@
     position: relative;
     width: 42%;
     left: 18%;
-}
+}\n
 
 #containerf {
   display: inline-block;
@@ -372,18 +372,6 @@ p {
 #content2 {  
   width: 80%;
     left: 9%;
-}
-
-.pictureContainer {
-    height: 57px;
-    width: 291px;
-}
-.pictureContainer img{
-  max-width: 291px;
-  max-height: 116px;
-}
-.pictureContainer img:hover {
-    top: -58px;
 }
 
 #images img {
