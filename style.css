@@ -16,12 +16,28 @@
     left: 8%;
 }
 
-#clicker_section {
+#switcher {
+  position: absolute;
+  z-index: 50;
+  top: 60%;
+  width:63%;
+  height: 40%;
+  text-align:center;
+  background-image: url("./polka_dot_dress.jpg");
+  border-radius: 50%;
+  background-size: 110%;
+  margin-top: 46.5%;
+  margin-left: 17.5%;
   display: inline-block;
-    position: relative;
-    width: 100%;
-    /*left: 9%;*/
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
+/*
+#toppic {
+    border-radius: 50%;
+}*/
 
 #containere {
   display: inline-block;
@@ -126,6 +142,7 @@
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 10;
 }
 
 .e {
