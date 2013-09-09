@@ -40,14 +40,31 @@ $(window).resize(function(){
 //    $('#switcher').attr("background-image", "url(./tracks.jpg)");
 // });
 
-//USE AJAX CALL TO DO THIS?
+
+// $(function() {
+
+//         $('#switcher').click(function() {
+//               $(this).css('background-image', 'url(./tracks.jpg)');
+//         });
+//                 $('#switcher').click(function() {
+//               $(this).css('background-image', 'url(./s_umbrella.jpg)');
+//         });
+//       });
 
 $(function() {
-
-        $('#switcher').click(function() {
-              $(this).css('background-image', 'url(./tracks.jpg)');
-        });
-      });
+ $("#switcher").click(function ( event ) {
+      $(this).hide();
+      $("#switcher2").show();
+    });
+ $("#switcher2").click(function ( event ) {
+      $(this).hide();
+      $("#switcher3").show();
+     });
+   $("#switcher3").click(function ( event ) {
+      $(this).hide();
+      $("#switcher").show();
+    });
+});
 
 
 
