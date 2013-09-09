@@ -216,7 +216,7 @@
 }
 
 .ts {
-  background-image: url("./left_title.jpg");
+  background-image: url("./left_title_2.jpg");
   /*background-repeat: none;*/
   background-size: 100%;
       position: absolute;
@@ -370,7 +370,7 @@ p a:visited {
 }
 
 .bigborder {
-  border: 30px solid black;
+  border: 28px solid black;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -501,7 +501,7 @@ p {
 }
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 859px) {
+@media (min-width: 639px) and (max-width: 859px) {
  body { font-size:60%;
   line-height: 170%;}
   #maincontainer {
@@ -528,10 +528,6 @@ p {
     top: -49px;
 }
 */
-#containere {
-  margin-left: auto;
-  margin-right: auto;
-}
       
  #contactinfo {
   font-size: 2em;
@@ -539,7 +535,7 @@ p {
 }
 
 /* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 466px) and (max-width: 638px) {
  body { font-size:50%;
   line-height: 120%;}
   #maincontainer {
@@ -575,15 +571,10 @@ p {
   font-size: 2.7em;
 }
 
-#containere {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 }
 
 /* Landscape phones and down */
-@media (max-width: 480px) {
+@media (max-width: 465px) {
  body { font-size: 33%; 
   line-height: 95%;}
   #maincontainer {
