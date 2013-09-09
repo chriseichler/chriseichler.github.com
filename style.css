@@ -116,6 +116,11 @@
     border-radius: 50%;
 }*/
 
+/*#e_contain {
+    display: ;
+
+}
+*/
 #containere {
   display: inline-block;
     position: relative;
@@ -549,18 +554,18 @@ p {
   left: 4%;
 }
   
-./*pictureContainer {
-    height: 49px;
-    width: 236px;
+.pictureContainer {
+    height: 57px;
+    width: 291px;
 }
 .pictureContainer img{
-  max-width: 236px;
-  max-height: 98px;
+  max-width: 291px;
+  max-height: 116px;
 }
 .pictureContainer img:hover {
-    top: -49px;
+    top: -58px;
 }
-*/
+
 #containerg {
   width: 82%;
     left: 9%;
