@@ -16,7 +16,7 @@ $(function() {
 });
 
 $(window).resize(function(){
-  if ($(window).width() <= 800){  
+  if ($(window).width() <= 1000){  
     // do something here
     $('#title_section').css("width", "78%");
     $('#title_section').css("left", "11%");
@@ -25,7 +25,7 @@ $(window).resize(function(){
 });
 
 $(window).resize(function(){
-  if ($(window).width() >= 800){  
+  if ($(window).width() >= 1000){  
     // do something here
     $('#title_section').css("width", "40%");
     $('#title_section').css("left", "8%");
@@ -61,6 +61,14 @@ $(function() {
       $("#switcher3").show();
      });
    $("#switcher3").click(function ( event ) {
+      $(this).hide();
+      $("#switcher4").show();
+    });
+    $("#switcher4").click(function ( event ) {
+      $(this).hide();
+      $("#switcher5").show();
+    });
+    $("#switcher5").click(function ( event ) {
       $(this).hide();
       $("#switcher").show();
     });

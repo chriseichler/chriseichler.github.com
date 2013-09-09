@@ -23,7 +23,7 @@
   width:63%;
   height: 40%;
   text-align:center;
-  background-image: url("./polka_dot_dress.jpg");
+  background-image: url("./l_r.jpg");
   border-radius: 50%;
   background-size: 110%;
   margin-top: 46.5%;
@@ -36,13 +36,13 @@
 }
 #switcher2 {
   display: none;
+  background-image: url("./tracks.jpg");
   position: absolute;
   z-index: 50;
   top: 60%;
   width:63%;
   height: 40%;
   text-align:center;
-  background-image: url("./tracks.jpg");
   border-radius: 50%;
   background-size: 110%;
   margin-top: 46.5%;
@@ -55,13 +55,52 @@
 }
 #switcher3 {
   display: none;
+  background-image: url("./sallyWall.jpg");
   position: absolute;
   z-index: 50;
   top: 60%;
   width:63%;
   height: 40%;
   text-align:center;
-  background-image: url("./s_umbrella.jpg");
+  border-radius: 50%;
+  background-size: 110%;
+  margin-top: 46.5%;
+  margin-left: 17.5%;
+  display: inline-block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#switcher4 {
+  display: none;
+  background-image: url("./d_and_d.jpg");
+  position: absolute;
+  z-index: 50;
+  top: 60%;
+  width:63%;
+  height: 40%;
+  text-align:center;
+  border-radius: 50%;
+  background-size: 110%;
+  margin-top: 46.5%;
+  margin-left: 17.5%;
+  display: inline-block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#switcher5 {
+  display: none;
+  background-image: url("./polka_dot_dress.jpg");
+  position: absolute;
+  z-index: 50;
+  top: 60%;
+  width:63%;
+  height: 40%;
+  text-align:center;
   border-radius: 50%;
   background-size: 110%;
   margin-top: 46.5%;
@@ -81,7 +120,7 @@
   display: inline-block;
     position: relative;
     width: 42%;
-    left: 13%;
+    left: 15%;
 }
 
 #containerf {
@@ -107,7 +146,7 @@
 }
 
 #ed {
-    padding-top: 65%; 
+    padding-top: 99%; 
 /*    background-color: red;
 */}
 #fd {
@@ -440,7 +479,7 @@ p {
   width: 85%;
     left: 7%;
 }
-.pictureContainer {
+/*.pictureContainer {
     height: 57px;
     width: 291px;
 }
@@ -450,8 +489,8 @@ p {
 }
 .pictureContainer img:hover {
     top: -58px;
-}
-     #contactinfo {
+}*/
+  #contactinfo {
   font-size: 1.6em;
 }
 }
@@ -472,7 +511,7 @@ p {
     left: 5%;
 
 }
- .pictureContainer {
+ /*.pictureContainer {
     height: 49px;
     width: 236px;
 }
@@ -482,6 +521,11 @@ p {
 }
 .pictureContainer img:hover {
     top: -49px;
+}
+*/
+#containere {
+  margin-left: auto;
+  margin-right: auto;
 }
       
  #contactinfo {
@@ -505,7 +549,7 @@ p {
   left: 4%;
 }
   
-.pictureContainer {
+./*pictureContainer {
     height: 49px;
     width: 236px;
 }
@@ -516,7 +560,7 @@ p {
 .pictureContainer img:hover {
     top: -49px;
 }
-
+*/
 #containerg {
   width: 82%;
     left: 9%;
@@ -526,8 +570,9 @@ p {
   font-size: 2.7em;
 }
 
-#containerc {
-  opacity: 0;
+#containere {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 }
@@ -560,7 +605,10 @@ p {
     top: -49px;
 }
 #containere {
-  left: 12%;
+/*  left: 12%;*/
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 #containerg {
