@@ -126,13 +126,7 @@
     position: relative;
     width: 42%;
     left: 15%;
-}
-
-#containerf {
-  display: inline-block;
-    position: relative;
-    width: 32%;
-    /*left: 18%;*/
+    margin-bottom: 5px;
 }
 
 #containerg {
@@ -140,7 +134,7 @@
     position: relative;
     width: 62%;
     left: 17%;
-    margin-top: 31px;
+    margin-top: 65px;
 }
 
 #ed {
