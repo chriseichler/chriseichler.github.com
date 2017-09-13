@@ -1,24 +1,45 @@
 .m-grid {
-  height: 5010px;
+  height: 100vh;
   display: grid;
   grid-template-rows: 110px 600px 600px 600px 600px 600px 600px 600px 600px 100px;
   grid-template-columns: 1fr;
 }
 
 .stripe {
-  background-color: #efe;
+  border-bottom: 20px solid #367960;
+  /*background-color: #efe;*/
   grid-column-start: 1;
   grid-column-end: span 1;
-    height: 100px;
+  font-family: 'Oswald', sans-serif;
+  display: inline;
+  font-size: 2em;
+  /*text-align: right;*/
+  /*text-decoration: none;*/
+}
+
+#smalltext {
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+a:visited, a:link {
+  text-decoration: none;
+  color: #222;
 }
 
 .content1 {
-  background-color: #DA9473;
-  /*border: 2px solid #555;*/
+  background-color: #fff;
+  /*border: 9px solid #DA9473;*/
+  /*color: #eee;*/
   grid-column-start: 1;
   grid-column-end: span 1;
-   height: 600px;
-  }
+  height: 600px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2em;
+  color: #BBB;
+  letter-spacing: 7px;
+  padding: 30px 0 0 10px;
+}
 
 .content2 {
   /*border: 2px solid #ffcf23;*/
@@ -45,14 +66,14 @@
   }
 
 .content5 {
-  background-color: green;
+  background-color: #efe;
   grid-column-start: 1;
   grid-column-end: span 1;
    height: 600px;
   }
 
 .content6 {
-  background-color: yellow;
+  background-color: #efe;
   grid-column-start: 1;
   grid-column-end: span 1;
   height: 600px;
@@ -66,35 +87,34 @@
   }
 
 .content8 {
-  background-color: pink;
+  background-color: goldenrod;
   grid-column-start: 1;
   grid-column-end: span 1;
     height: 600px;
   }
 
-h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 2.7em;
+  #namespan {
   padding-left: 10px;
-  text-transform:
 }
 
-.fillings1 p {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.3em;
-  padding: 10px 10px 10px 10px;
-}
-
-.cheese {
-  display:flex;
-  /*flex-direction: column;*/
-  justify-content: flex-end;
-  padding: 34px 34px 4px 6px;
+#titlespan {
+  float: right;
+  padding-right: 10px;
+  color: darkorange;
+  font-size: .8em;
 }
 
 .cheese img {
      /*box-shadow: 10px 8px 5px #aaa;*/
 }
+
+.hash {
+  display:flex;
+  /*flex-direction: column;*/
+  justify-content: center;
+  /*padding: 34px 0px 0px 0px;*/
+}
+
 
 .content2 h3 {
   text-align: right;
