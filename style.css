@@ -1,589 +1,95 @@
-#dd {
-/*  border: 1px solid black;
-*//*  box-shadow: 4px 4px 4px #999; */
-
+.grid {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 110px 600px 600px 100px;
+  grid-template-columns: .25fr .25fr .25fr .25fr;
 }
 
-#title_left {
-  width: 600px;
-  left: 18%;
+.m-grid {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 110px 600px 600px 600px 600px 600px 600px 600px 600px;
+  grid-template-columns: 1fr;
 }
 
-#title_section {
-  display: inline-block;
-    position: relative;
-    width: 40%;
-    left: 8%;
+.stripe {
+  background-color: #efe;
+  grid-column-start: 1;
+  grid-column-end: 5;
 }
 
-#switcher {
-  position: absolute;
-  z-index: 50;
-  top: 60%;
-  width:63%;
-  height: 40%;
-  text-align:center;
-  background-image: url("./l_r.jpg");
-  border-radius: 50%;
-  background-size: 110%;
-  margin-top: 46.5%;
-  margin-left: 17.5%;
-  display: inline-block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-#switcher2 {
-  display: none;
-  background-image: url("./tracks.jpg");
-  position: absolute;
-  z-index: 50;
-  top: 60%;
-  width:63%;
-  height: 40%;
-  text-align:center;
-  border-radius: 50%;
-  background-size: 110%;
-  margin-top: 46.5%;
-  margin-left: 17.5%;
-  display: inline-block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-#switcher3 {
-  display: none;
-  background-image: url("./sallyWall.jpg");
-  position: absolute;
-  z-index: 50;
-  top: 60%;
-  width:63%;
-  height: 40%;
-  text-align:center;
-  border-radius: 50%;
-  background-size: 110%;
-  margin-top: 46.5%;
-  margin-left: 17.5%;
-  display: inline-block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-#switcher4 {
-  display: none;
-  background-image: url("./as3.jpg");
-  position: absolute;
-  z-index: 50;
-  top: 60%;
-  width:63%;
-  height: 40%;
-  text-align:center;
-  border-radius: 50%;
-  background-size: 110%;
-  margin-top: 46.5%;
-  margin-left: 17.5%;
-  display: inline-block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.content1 {
+  background-color: #DA9473;
+  /*border: 2px solid #555;*/
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  height: 600px;
 }
 
-#switcher5 {
-  display: none;
-  background-image: url("./polka_dot_dress.jpg");
-  position: absolute;
-  z-index: 50;
-  top: 60%;
-  width:63%;
-  height: 40%;
-  text-align:center;
-  border-radius: 50%;
-  background-size: 110%;
-  margin-top: 46.5%;
-  margin-left: 17.5%;
-  display: inline-block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-/*
-#toppic {
-    border-radius: 50%;
-}*/
-
-/*#e_contain {
-    display: ;
-
-}
-*/
-#containere {
-  display: inline-block;
-    position: relative;
-    width: 42%;
-    left: 15%;
-    margin-bottom: 5px;
-}
-
-#containerg {
-  display: inline-block;
-    position: relative;
-    width: 62%;
-    left: 17%;
-    margin-top: 65px;
-}
-
-#ed {
-    padding-top: 99%; 
-/*    background-color: red;
-*/}
-#fd {
-    padding-top: 60%;
-}
-
-#gd {
-    padding-top: 66%;
-    /*background-color: pink;*/
-}
-
-#ts_d {
-  padding-top: 116%;
-}
-
-/*
-.a, .b, .c {
-  float: left;
-  position: relative;
-}
-
-.d, .e, .f {
-  float: right;
-}*/
-
-.a {
-/*  width: 90%;
-  height: 40%;
-  margin: 9px;*/
-/*  background-color: green;
-*/}
-
-.b {
- /* width: 239px;
-  height: 180px;
-  margin: 9px;*/
-/*  background-image: url("./contact.png");
-  background-repeat: no-repeat;
-  background-position: center;
+.content2 {
+  /*border: 2px solid #ffcf23;*/
   background-color: #eee;
-  border: 9px solid #204ec1;*/
-  /*background-size: 70%;*/
+  grid-column-start: 2;
+  grid-column-end: span 1;
 }
 
-.c {
-  /*width: 98px;
-  height: 269px;
-  margin: 9px;*/
-  background-image: url("./tracks.jpg");
-  border-radius: 50%;
-  background-size: 100%;
+.content3 {
+  /*border: 2px solid #ffcf23;*/
+  background-color: #eee;
+  grid-column-start: 3;
+  grid-column-end: span 1;
 }
 
-.d {
-  /*width: 240px;
-  height: 200px;
-  margin: 9px;*/
-  background-image: url("./polka_dot_dress.jpg");
-  border-radius: 50%;
-  background-size: 108%;
-
+.content4 {
+  /*border: 4px solid white;*/
+  background-color: #389E77;
+  grid-column-start: 4;
+  grid-column-end: span 1;
 }
 
-.ts {
-  background-image: url("./left_title_2.jpg");
-  /*background-repeat: none;*/
-  background-size: 100%;
-      position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
+.content5 {
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: span 1;
 }
 
-.e {
-  /*width: 121px;
-  height: 175px;
-  margin: 9px;*/ 
-  padding-left: 2%;
-  padding-bottom: 1%;
+.content6 {
+  background-color: yellow;
+  grid-column-start: 2;
+  grid-column-end: span 1;
 }
 
-.f {
-  /*width: 185px;
-  height: 230px;
-  margin: 9px;*/
-  padding:12px;
-  z-index: 40;
-  height: auto !important; 
- height:100%;
-
+.content7 {
+  background-color: goldenrod;
+  grid-column-start: 3;
+  grid-column-end: span 1;
 }
 
-.g {
-/*  width: 720px;
-  height: 490px;
-  clear: both;
-  margin: 9px;
-  margin-left: auto;
-  margin-right: auto;*/
-      border: 21px solid #c9c9c9;
-        background-image: url("./losttribes.jpeg");
-            background-size: 100%;
-
-}
-/*I need to update height of content2 in @medias
-*/
-#content2 {  
-    margin: 30px auto;   
-    border:1px dotted #ccc;  
-    overflow-x: scroll;
-    display: inline-block;
-    position: relative;
-    width: 66%;
-    height: 500px;
-    left: 15%;
-}
-
-#images {
-  width: 4860px;
-}
-
-#pd {
-    padding-top: 66%;
-    /*background-color: pink;*/
-}
-
-#pics {
-    position: fixed;
-    margin:20px 20px;  
-    width:300px;  
-    height:200px;  
-    border:1px dotted #999;  
-}
-
-
-p a:hover {
-  color: #787871;
-  text-decoration: none;
-}
-p a:visited {
-  color: black;
-  text-decoration: none;
-}
-
-#job1 {
-  /*background-color: green;*/
-  /*background-image: url("./design.png");*/
-  /*background-size: 42%;*/
-  background-repeat: no-repeat;
-  background-position: center;
-}
-#job2 {
-  /*background-color: orange;*/
-  /*background-image: url("./development.png");*/
-  /*background-size: 70%;*/
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
-#job3 {
-  /*background-color: purple;*/
-  /*background-image: url("./photography.png");*/
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-
-#myname {
-  font-weight: bold;
-/*  font-family: 'Playfair Display', sans-serif;
-*/  font-size: 2.5em;
-  display: inline-block;
-  position: relative;
-  width: 24%;
-  left: 2%;
-  /*border: 1px solid black;*/
-  /*width: 26%;*/
-}
-
-#contactinfo {
-  text-align: center;
-  display: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  font-size: 1.4em;
- /* background-color: #f7f0a3;*/
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(247, 240, 163)', endColorstr='rgb(290, 290, 290)'); /* for IE */
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(247, 240, 163)), to(rgb(290, 290, 290))); /* for webkit browsers */
-  background: -moz-linear-gradient(top,  rgb(247, 240, 163),  rgb(290, 290, 290)); /* for firefox 3.6+ */
-}
-
-.bigborder {
-  border: 28px solid black;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin-left: -8px;
-  margin-top: -8px;
-}
-
-#returnclick {
-padding: 10px;
-width: 140px;
-margin-right: auto;
-margin-left: auto;
-border: 1px solid black;
-}
-
-.a, .b, .c, .d, .e, .f, .g {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 11;
-}
-
-p {
-  z-index: 20;
-}
-
-.pictureContainer {
-    height: 82px;
-    width: 416px;
-    overflow: hidden;
-   /*background-image: url("./contact.png");*/
-/*  background-repeat: no-repeat;
-  background-position: center;*/
-/*    background-color: #eee;
-    border: 9px solid #204ec1;*/
-    /*background-size: 70%;*/
-
-}
-
-.pictureContainer img {
-    position: relative;
-    top: 0px;
-
-    -webkit-transition: top .2s ease-in-out;
-    -moz-transition: top .2s ease-in-out;
-    -o-transition: top .2s ease-in-out;
-    transition: top .2s ease-in-out;
-
-}
-.pictureContainer img:hover {
-    top: -85px;
-}
-
-.pictureContainer img:active {
-    -webkit-transform: translateY(3px);
-    transform: translateY(3px);
-    -webkit-animation: none;
-    animation: none;
-    }
-
-
-
-/************** AT MEDIA RULES ************/
-/* Large desktop */
-@media (min-width: 1310px) {
- body { font-size:100%;
- line-height: 100%;}
- #maincontainer {
-  background-position: 0px 255px;} 
-#images img {
-  max-width: 50%;
-}
-/*also shrink the div pics are in
-*/
-}
-
-@media (min-width: 980px) and (max-width: 1309px) {
- body { font-size:84%;
- line-height: 82%;}
- #maincontainer {
-  background-position: 0px 240px;
-  background-size: 18%;
-}
-
-#content2 {  
-  width: 80%;
-    left: 9%;
-}
-
-#images img {
-  max-width: 50%;
-}
-}
-
-@media (min-width: 860px) and (max-width: 979px) {
- body { font-size:75%;
- line-height: 75%;}
- #maincontainer {
-  background-position: 0px 230px;
-  background-size: 21%;
-
-} 
-/*#images img {
-  max-width: 50%;
-}*/
-#content2 {  
-  width: 85%;
-    left: 7%;
-}
-/*.pictureContainer {
-    height: 57px;
-    width: 291px;
-}
-.pictureContainer img{
-  max-width: 291px;
-  max-height: 116px;
-}
-.pictureContainer img:hover {
-    top: -58px;
-}*/
-  #contactinfo {
-  font-size: 1.6em;
-}
-}
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 639px) and (max-width: 859px) {
- body { font-size:60%;
-  line-height: 170%;}
-  #maincontainer {
-  background-position: 0px 160px;
-    background-size: 23%;
-}
-/* #images img {
-  max-width: 50%;
- }*/
-#content2 {  
-  width: 90%;
-    left: 5%;
-
-}
- /*.pictureContainer {
-    height: 49px;
-    width: 236px;
-}
-.pictureContainer img{
-  max-width: 236px;
-  max-height: 98px;
-}
-.pictureContainer img:hover {
-    top: -49px;
-}
-*/
-      
- #contactinfo {
-  font-size: 2em;
-}
-}
-
-/* Landscape phone to portrait tablet */
-@media (min-width: 466px) and (max-width: 638px) {
- body { font-size:50%;
-  line-height: 120%;}
-  #maincontainer {
-  background-position: 0px 25px;
-    background-size: 30%;
-  }
-/*   #images img {
-  max-width: 7%;
-    }*/
-#content2 {  
-  width: 90%;
-  left: 4%;
-}
-  
-.pictureContainer {
-    height: 57px;
-    width: 291px;
-}
-.pictureContainer img{
-  max-width: 291px;
-  max-height: 116px;
-}
-.pictureContainer img:hover {
-    top: -58px;
-}
-
-#containerg {
-  width: 82%;
-    left: 9%;
-
-}
-  #contactinfo {
+h1 {
+  font-family: 'Oswald', sans-serif;
   font-size: 2.7em;
+  padding-left: 10px;
+  text-transform:
 }
 
+.fillings1 p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+  padding: 10px 10px 10px 10px;
 }
 
-/* Landscape phones and down */
-@media (max-width: 465px) {
- body { font-size: 33%; 
-  line-height: 95%;}
-  #maincontainer {
-  background-position: 0px 15px;
-  background-size: 50%;
-}
-/*  #images img {
-  max-width: 5%;
-  } */
-
-  #content2 {  
-    width: 95%;
-    left: 2%;
-}
-.pictureContainer {
-    height: 49px;
-    width: 236px;
-}
-.pictureContainer img{
-  max-width: 236px;
-  max-height: 98px;
-}
-.pictureContainer img:hover {
-    top: -49px;
-}
-#containere {
-/*  left: 12%;*/
-  margin-left: auto;
-  margin-right: auto;
-
+.cheese {
+  display:flex;
+  /*flex-direction: column;*/
+  justify-content: flex-end;
+  padding: 34px 34px 4px 6px;
 }
 
-#containerg {
-  width: 82%;
-  left: 9%;
+.cheese img {
+     box-shadow: 10px 8px 5px #aaa;
 }
 
-  #contactinfo {
-  font-size: 4.2em;
+.content2 h3 {
+  text-align: right;
+  font-size: 1.5em;
 }
-
-#containerc {
-  opacity: 0;
-}
-}
-/**************  ************/
