@@ -140,12 +140,12 @@ a:visited, a:link {
 
 .mobileproject {
  font-family: 'Merriweather Sans', sans-serif;
- font-size: 2em;
+ font-size: 3em;
 }
 
 .content1-hash {
   background-color: #fff;
-  color: #222;
+  color: red;
   text-align: center;
   padding: 35px 0 0 0;
   grid-column-start: 1;
