@@ -9,13 +9,6 @@ body {
   grid-template-columns: .25fr .25fr .25fr .25fr;
 }
 
-.m-grid {
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 110px 600px 600px 600px 600px 600px 600px 600px 600px 100px;
-  grid-template-columns: 350px;
-}
-
 .grid-project {
   height: 100vh;
   display: grid;
@@ -41,7 +34,7 @@ a:visited, a:link {
 
 .content1 {
   background-color: orange;
-  border-right: 3px solid #F78018;
+  /*border-right: 3px solid #F78018;*/
   /*border: 9px solid #DA9473;*/
   grid-column-start: 1;
   grid-column-end: span 1;
@@ -58,10 +51,10 @@ a:visited, a:link {
 
 .content2 {
   /*border-left: 3px solid #eee;*/
-  background-color: #fff;
+  background-color: #FAE597;
   grid-column-start: 2;
   grid-column-end: span 1;
-  padding: 30px 15px 0 55px;
+  /*padding: 30px 15px 0 55px;*/
 }
 
 .content2 h3, .content5 h3, .content7 h3 {
@@ -125,12 +118,26 @@ a:visited, a:link {
   padding: 10px 10px 10px 10px;
 }*/
 
-.hash {
-  display:flex;
+.hash, .infoshop, .blick {
+  /*display: inline-block;*/
   /*flex-direction: column;*/
-  justify-content: center;
-  padding: 24px 0px 0px 0px;
+  /*justify-content: center;*/
+  /*padding: 24px 10px 0px 35px;*/
 }
+
+.hash {
+  padding: 25px 10px 0px 35px;
+}
+
+.infoshop {
+  padding: 65px 0px 0px 20px;
+}
+
+.blick {
+  padding: 55px 0px 0px 16px;
+
+}
+
 
 .hashpage {
  font-family: 'Merriweather Sans', sans-serif;
@@ -223,13 +230,6 @@ a:visited, a:link {
   text-align: center;
   background-color: #efe;
   padding: 35px 30px 0 30px;
-}
-
-.infoshop {
-  display:flex;
-  /*flex-direction: column;*/
-  justify-content: center;
-  padding: 65px 0px 0px 0px;
 }
 
 .textbox {
