@@ -8,7 +8,7 @@
 .grid-project {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 1450px 2200px 1050px 1030px 1850px 1150px 2500px 960px 110px;
+  grid-template-rows: 120px 1350px 2100px 1260px 1010px 1700px 2150px 2350px 960px 110px;
   grid-template-columns: 1fr;
 }
 
