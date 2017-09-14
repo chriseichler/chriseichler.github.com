@@ -8,7 +8,7 @@
 .grid-project {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 850px 1500px 650px 530px 1150px 1150px 1500px 950px 100px;
+  grid-template-rows: 110px 1450px 2200px 1050px 1030px 1850px 1150px 2500px 960px 110px;
   grid-template-columns: 1fr;
 }
 
@@ -140,12 +140,12 @@ a:visited, a:link {
 
 .mobileproject {
  font-family: 'Merriweather Sans', sans-serif;
- font-size: 3em;
+ font-size: 2.5em;
 }
 
 .content1-hash {
   background-color: #fff;
-  color: red;
+  color: #222;
   text-align: center;
   padding: 35px 0 0 0;
   grid-column-start: 1;
