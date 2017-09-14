@@ -91,7 +91,7 @@ a:visited, a:link {
 }
 
 .content6 {
-  background-color: #efe;
+  background-color: #fff;
   grid-column-start: 2;
   grid-column-end: span 1;
 }
@@ -103,7 +103,7 @@ a:visited, a:link {
 }
 
 .content8 {
-  background-color: antiquewhite;
+  background-color: #fff;
   grid-column-start: 4;
   grid-column-end: span 1;
 }
