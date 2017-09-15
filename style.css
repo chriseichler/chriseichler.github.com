@@ -18,6 +18,13 @@ body {
   grid-template-columns: 1fr;
 }
 
+.grid-project-infoshop {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 110px 850px 1500px 1250px 430px 1150px 1350px 1500px 950px 100px;
+  grid-template-columns: 1fr;
+}
+
 .stripe {
   /*border-bottom: 20px solid #367960;*/
   background: #efe; /* For browsers that do not support gradients */
@@ -164,6 +171,15 @@ a:visited, a:link {
 }
 
 .content3-hash {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  background-color: #efe;
+  padding: 55px 160px 0 70px;
+  display: inline-block;
+}
+
+.content3-hash-infoshop {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
@@ -349,4 +365,10 @@ a:visited, a:link {
 
 #hashh3 {
   margin-top: 70px;
+}
+
+.pullquotes {
+  font-size: 1.4em;
+  padding: 20px 15px 0 15px;
+  color: mediumblue;
 }
