@@ -14,7 +14,7 @@ body {
 .grid-project {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 850px 1500px 650px 530px 1150px 1150px 1500px 950px 100px;
+  grid-template-rows: 110px 850px 1500px 650px 530px 1150px 1350px 1500px 950px 100px;
   grid-template-columns: 1fr;
 }
 
@@ -174,7 +174,7 @@ a:visited, a:link {
 
 .content3-hash img {
   float: left;
-  padding: 0 70px 0 15px;
+  padding: 0 100px 0 15px;
 }
 
 .content4-hash {
@@ -183,13 +183,21 @@ a:visited, a:link {
   text-align: center;
   background-color: #fff;
   padding: 85px 160px 0 70px;
+  /*display: inline-block;*/
+}
+
+.content4-blick {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  background-color: #FAE597;
+  padding: 85px 160px 0 70px;
   /*display:flex;*/
   /*justify-content: flex-start;*/
-  display: inline-block;
   /*float: left;*/
 }
 
-.content4-hash img {
+.content4-hash img, .content3-blick img {
   float: left;
   padding: 40px 90px 0 15px;
 }
@@ -213,7 +221,15 @@ a:visited, a:link {
   padding: 75px 70px 70px 30px;
   background-color: #48758A;
   color: #fff;
+}
 
+.content6-blick {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  padding: 0px 70px 10px 30px;
+  background-color: #fff;
+  color: #222;
 }
 
 .content7-hash {
@@ -223,6 +239,15 @@ a:visited, a:link {
   background-color: #fff;
   padding: 75px 70px 70px 30px;
 }
+
+.content7-blick {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  background-color: #F2F2F2;
+  padding: 30px 70px 20px 30px;
+}
+
 
 .content8-hash {
   grid-column-start: 1;
@@ -302,8 +327,7 @@ a:visited, a:link {
     position: relative;
     width: 100%;
     left: 18%;
-    margin-top: 55px;
-
+    margin-top: 30px;
 }
 
 #hashtravel_inner {
@@ -324,5 +348,5 @@ a:visited, a:link {
 }
 
 #hashh3 {
-  margin-top: 60px;
+  margin-top: 70px;
 }
