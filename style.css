@@ -25,6 +25,13 @@ body {
   grid-template-columns: 1fr;
 }
 
+.grid-project-blick {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 110px 850px 1500px 650px 530px 920px 1350px 1570px 950px 100px;
+  grid-template-columns: 1fr;
+}
+
 .stripe {
   /*border-bottom: 20px solid #367960;*/
   background: #efe; /* For browsers that do not support gradients */
@@ -371,4 +378,12 @@ a:visited, a:link {
   font-size: 1.4em;
   padding: 20px 15px 0 15px;
   color: mediumblue;
+}
+
+#aboutdiv {
+  font-size: .7em;
+}
+
+#madeby {
+  font-size: .6em;
 }
