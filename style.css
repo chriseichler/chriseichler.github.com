@@ -297,10 +297,10 @@ a:visited, a:link {
 /*For Responsive Front Page Images within Grid*/
 #blick_section {
   display: inline-block;
-    position: relative;
-    width: 85%;
-    left: 8%;
-    margin-top: 65px;
+  position: relative;
+  width: 85%;
+  left: 8%;
+  margin-top: 65px;
 
 }
 
@@ -322,10 +322,10 @@ a:visited, a:link {
 
 #infoshop_section {
   display: inline-block;
-    position: relative;
-    width: 85%;
-    left: 8%;
-    margin-top: 65px;
+  position: relative;
+  width: 85%;
+  left: 8%;
+  margin-top: 65px;
 
 }
 
@@ -347,10 +347,10 @@ a:visited, a:link {
 
 #hashtravel_section {
   display: inline-block;
-    position: relative;
-    width: 100%;
-    left: 18%;
-    margin-top: 30px;
+  position: relative;
+  width: 100%;
+  left: 18%;
+  margin-top: 30px;
 }
 
 #hashtravel_inner {
@@ -386,4 +386,57 @@ a:visited, a:link {
 
 #madeby {
   font-size: .6em;
+}
+
+
+#L1_section, #L2_section, #L3_section, #L4_section, #L5_section, #L6_section, #L7_section {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  left: 14%;
+  margin-top: 10px;
+}
+
+#L1_inner, #L2_inner, #L3_inner, #L4_inner, #L5_inner, #L6_inner, #L7_inner {
+  padding-top: 20%;
+}
+
+.L1_picdiv, .L2_picdiv, .L3_picdiv, .L4_picdiv, .L5_picdiv, .L6_picdiv, .L7_picdiv {
+  background-size: 65%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 10px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+}
+
+.L1_picdiv {
+  background-image: url("images/L1_research.jpg");
+}
+
+.L2_picdiv {
+  background-image: url("images/L2_analysis.jpg");
+}
+
+.L3_picdiv {
+  background-image: url("images/L3_ideas.jpg");
+}
+
+.L4_picdiv {
+  background-image: url("images/L4_design.jpg");
+}
+
+.L5_picdiv {
+  background-image: url("images/L5_technology.jpg");
+}
+
+.L6_picdiv {
+  background-image: url("images/L6_details.jpg");
+}
+
+.L7_picdiv {
+  background-image: url("images/L7_art.jpg");
 }
