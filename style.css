@@ -14,7 +14,7 @@ body {
 .grid-project-hashtravel {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 850px 1500px 650px 530px 1150px 1350px 1500px 950px 120px;
+  grid-template-rows: 110px 850px 1830px 650px 530px 1150px 1350px 1500px 950px 120px;
   grid-template-columns: 1fr;
     /*font-size: 1em;*/
 }
@@ -466,6 +466,10 @@ a:visited, a:link {
   text-align: left;
 }
 
+#abouttag {
+  padding-left: 20px;
+}
+
 #L1_section, #L2_section, #L3_section, #L4_section, #L5_section, #L6_section, #L7_section {
   display: inline-block;
   position: relative;
@@ -594,6 +598,116 @@ a:visited, a:link {
 
 .infopersona_picdiv {
   background-image: url("images/user_persona_Jessica_infoshop.jpg");
+  /*box-shadow: 10px 10px 5px #999;*/
+  background-size: 80%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#HTR_section, #HTR2_section {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  left: 15%;
+  margin-top: 0px;
+}
+
+#HTR_inner {
+  padding-top: 47%;
+}
+
+ #HTR2_inner {
+    padding-top: 57%;
+ }
+
+.HTR_picdiv, .HTR2_picdiv {
+  background-size: 69%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.HTR_picdiv {
+  background-image: url("images/HTResults.png");
+}
+
+.HTR2_picdiv {
+  background-image: url("images/IMAC_layers.png");
+}
+
+#BA_section {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  left: 11%;
+  margin-top: 20px;
+}
+
+#BA_inner {
+  padding-top: 59%;
+}
+
+.BA_picdiv {
+  background-image: url("images/blick_phone_annot_single.jpg");
+  /*box-shadow: 10px 10px 5px #999;*/
+  background-size: 80%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#BC_section {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  left: 11%;
+  margin-top: 20px;
+}
+
+#BC_inner {
+  padding-top: 79%;
+}
+
+.BC_picdiv {
+  background-image: url("images/blick_desk_checkout.jpg");
+  /*box-shadow: 10px 10px 5px #999;*/
+  background-size: 80%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#BHF_section {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  left: 11%;
+  margin-top: 40px;
+}
+
+#BHF_inner {
+  padding-top: 19%;
+}
+
+.BHF_picdiv {
+  background-image: url("images/blick_images_row.jpg");
   /*box-shadow: 10px 10px 5px #999;*/
   background-size: 80%;
   background-repeat: no-repeat;
