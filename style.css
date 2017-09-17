@@ -14,7 +14,7 @@ body {
 .grid-project-hashtravel {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 850px 1500px 650px 530px 1150px 1350px 1500px 950px 100px;
+  grid-template-rows: 110px 850px 1500px 650px 530px 1150px 1350px 1500px 950px 120px;
   grid-template-columns: 1fr;
     /*font-size: 1em;*/
 }
@@ -22,21 +22,21 @@ body {
 .grid-project-infoshop {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 850px 450px 1950px 390px 1250px 250px 750px 3050px 1100px 100px;
+  grid-template-rows: 110px 850px 450px 1950px 400px 1550px 250px 950px 1900px 2650px 120px;
   grid-template-columns: 1fr;
 }
 
 .grid-project-blick {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 850px 1500px 650px 530px 920px 1350px 1570px 950px 100px;
+  grid-template-rows: 110px 850px 1500px 650px 530px 920px 1350px 1570px 950px 120px;
   grid-template-columns: 1fr;
   font-size: .8em;
 }
 
 .stripe {
   /*border-bottom: 20px solid #367960;*/
-  background: #efe; /* For browsers that do not support gradients */
+  background: #efe;
   grid-column-start: 1;
   grid-column-end: 5;
   display: inline;
@@ -96,7 +96,7 @@ a:visited, a:link {
 }
 
 .content5 {
-  background-color: #efe;
+  background-color: #365193;
   grid-column-start: 1;
   grid-column-end: span 1;
 }
@@ -120,13 +120,13 @@ a:visited, a:link {
 }
 
 #namespan {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 #titlespan {
   float: right;
-  padding-right: 30px;
-  color: darkorange;
+  padding-right: 40px;
+  color: #365193;
   font-size: .8em;
 }
 
@@ -291,7 +291,7 @@ a:visited, a:link {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
-  background-color: #F2F2F2;
+  background-color: #fff;
   padding: 30px 70px 20px 30px;
 }
 
@@ -299,7 +299,7 @@ a:visited, a:link {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
-  background-color: #efe;
+  background-color: #EFE;
   padding: 35px 30px 0 30px;
 }
 
@@ -307,16 +307,16 @@ a:visited, a:link {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
-  background-color: #fff;
   padding: 75px 70px 70px 30px;
+  background: #E2F9F8;
 }
 
 .content9-infoshop {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
-  background-color: #FAE597;
   padding: 75px 70px 70px 30px;
+  background: #FFF;
 }
 
 .textbox {
@@ -414,7 +414,7 @@ a:visited, a:link {
 }
 
 .pullquotes {
-  font-size: 1.4em;
+  font-size: 1.2em;
   padding: 20px 15px 0 15px;
   color: mediumblue;
 }
@@ -425,10 +425,6 @@ a:visited, a:link {
 
 #madeby {
   font-size: .6em;
-}
-
-.footerhome {
-  padding: 20px 45px 0 45px;
 }
 
 #L1_section, #L2_section, #L3_section, #L4_section, #L5_section, #L6_section, #L7_section {
@@ -518,7 +514,7 @@ a:visited, a:link {
   display: inline-block;
   position: relative;
   width: 100%;
-  left: 17%;
+  left: 15%;
   margin-top: 0px;
 }
 
