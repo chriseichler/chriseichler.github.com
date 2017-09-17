@@ -29,7 +29,7 @@ body {
 .grid-project-blick {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 850px 1350px 650px 530px 920px 1350px 1570px 950px 120px;
+  grid-template-rows: 110px 850px 1350px 650px 530px 920px 1350px 1700px 950px 120px;
   grid-template-columns: 1fr;
   font-size: .8em;
 }
