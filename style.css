@@ -14,7 +14,7 @@ body {
 .grid-project-hashtravel {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 850px 1830px 650px 530px 1150px 1350px 1500px 950px 120px;
+  grid-template-rows: 110px 850px 1550px 650px 530px 1150px 1350px 1500px 950px 120px;
   grid-template-columns: 1fr;
     /*font-size: 1em;*/
 }
@@ -22,7 +22,7 @@ body {
 .grid-project-infoshop {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 850px 450px 1950px 400px 1550px 250px 950px 1900px 2650px 120px;
+  grid-template-rows: 110px 850px 450px 1950px 400px 1200px 250px 950px 1900px 2650px 120px;
   grid-template-columns: 1fr;
 }
 
@@ -525,13 +525,13 @@ a:visited, a:link {
 #IS1_section, #IS2_section {
   display: inline-block;
   position: relative;
-  width: 100%;
-  left: 13%;
+  width: 90%;
+  left: 11%;
   margin-top: 0px;
 }
 
 #IS1_inner, #IS2_inner {
-  padding-top: 54%;
+  padding-top: 53%;
 }
 
 .IS1_picdiv, .IS2_picdiv {
@@ -543,6 +543,7 @@ a:visited, a:link {
   bottom: 0;
   left: 0;
   right: 0;
+  /*width: 800px;*/
 }
 
 .IS1_picdiv {
@@ -556,8 +557,8 @@ a:visited, a:link {
 #midfi1_section, #midfi2_section {
   display: inline-block;
   position: relative;
-  width: 100%;
-  left: 15%;
+  width: 84%;
+  left: 14%;
   margin-top: 0px;
 }
 
@@ -587,8 +588,8 @@ a:visited, a:link {
 #infopersona_section {
   display: inline-block;
   position: relative;
-  width: 100%;
-  left: 11%;
+  width: 75%;
+  left: 9%;
   margin-top: 20px;
 }
 
@@ -598,7 +599,6 @@ a:visited, a:link {
 
 .infopersona_picdiv {
   background-image: url("images/user_persona_Jessica_infoshop.jpg");
-  /*box-shadow: 10px 10px 5px #999;*/
   background-size: 80%;
   background-repeat: no-repeat;
   position: absolute;
@@ -612,13 +612,13 @@ a:visited, a:link {
 #HTR_section, #HTR2_section {
   display: inline-block;
   position: relative;
-  width: 100%;
-  left: 15%;
+  width: 80%;
+  left: 12.5%;
   margin-top: 0px;
 }
 
 #HTR_inner {
-  padding-top: 47%;
+  padding-top: 45%;
 }
 
  #HTR2_inner {
@@ -647,8 +647,8 @@ a:visited, a:link {
 #BA_section {
   display: inline-block;
   position: relative;
-  width: 100%;
-  left: 11%;
+  width: 84%;
+  left: 9%;
   margin-top: 20px;
 }
 
@@ -658,7 +658,6 @@ a:visited, a:link {
 
 .BA_picdiv {
   background-image: url("images/blick_phone_annot_single.jpg");
-  /*box-shadow: 10px 10px 5px #999;*/
   background-size: 80%;
   background-repeat: no-repeat;
   position: absolute;
@@ -672,7 +671,7 @@ a:visited, a:link {
 #BC_section {
   display: inline-block;
   position: relative;
-  width: 100%;
+  width: 90%;
   left: 11%;
   margin-top: 20px;
 }
@@ -683,7 +682,6 @@ a:visited, a:link {
 
 .BC_picdiv {
   background-image: url("images/blick_desk_checkout.jpg");
-  /*box-shadow: 10px 10px 5px #999;*/
   background-size: 80%;
   background-repeat: no-repeat;
   position: absolute;
@@ -697,7 +695,7 @@ a:visited, a:link {
 #BHF_section {
   display: inline-block;
   position: relative;
-  width: 100%;
+  width: 90%;
   left: 11%;
   margin-top: 40px;
 }
