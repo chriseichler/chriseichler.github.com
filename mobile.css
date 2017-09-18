@@ -1,3 +1,33 @@
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+.mobileproject {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.5em;
+}
+
+.stripe, h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.4em;
+}
+
+.textbox {
+  width: 75%;
+  margin: auto;
+  font-size: 2em;
+}
+
+.text2 {
+  margin: auto;
+  font-size: 2em;
+}
+
+.bottom.stripe {
+  text-align: center;
+}
+
+
 .m-grid {
   height: 100vh;
   display: grid;
@@ -8,7 +38,14 @@
 .grid-hash {
   height: 100vh;
   display: grid;
-  grid-template-rows: 120px 1350px 2200px 2200px 1020px 1650px 2150px 2250px 960px 110px;
+  grid-template-rows: 120px 1350px 2500px 2200px 1020px 1650px 2150px 2250px 960px 110px;
+  grid-template-columns: 1fr;
+}
+
+.grid-info {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 110px 950px 600px 2150px 480px 1200px 250px 950px 1900px 2650px 120px;
   grid-template-columns: 1fr;
 }
 
@@ -138,11 +175,6 @@ a:visited, a:link {
   padding: 55px 0px 0px 16px;
 }
 
-.mobileproject {
- font-family: 'Merriweather Sans', sans-serif;
- font-size: 2.5em;
-}
-
 .content1-hash {
   background-color: #fff;
   color: #222;
@@ -230,12 +262,163 @@ a:visited, a:link {
   padding: 35px 30px 0 30px;
 }
 
-.textbox {
-  width: 75%;
-  margin: auto;
+#IS1_section, #IS2_section {
+  display: inline-block;
+  position: relative;
+  width: 90%;
+  left: 11%;
+  margin-top: 0px;
 }
 
-.bottom.stripe {
-  text-align: center;
-  font-size: 2.4em;
+#IS1_inner, #IS2_inner {
+  padding-top: 53%;
+}
+
+.IS1_picdiv, .IS2_picdiv {
+  background-size: 75%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*width: 800px;*/
+}
+
+.IS1_picdiv {
+  background-image: url("images/infoshop_screens1.png");
+}
+
+.IS2_picdiv {
+  background-image: url("images/infoshop_screens2.png");
+}
+
+#midfi1_section, #midfi2_section {
+  display: inline-block;
+  position: relative;
+  width: 84%;
+  left: 14%;
+  margin-top: 0px;
+}
+
+#midfi1_inner, #midfi2_inner {
+  padding-top: 40%;
+}
+
+.midfi1_picdiv, .midfi2_picdiv {
+  background-size: 69%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.midfi1_picdiv {
+  background-image: url("images/infoshop_series.jpg");
+}
+
+.midfi2_picdiv {
+  background-image: url("images/infoshop_midfi.jpg");
+}
+
+#infopersona_section {
+  display: inline-block;
+  position: relative;
+  width: 75%;
+  left: 9%;
+  margin-top: 20px;
+}
+
+#infopersona_inner {
+  padding-top: 48%;
+}
+
+.infopersona_picdiv {
+  background-image: url("images/user_persona_Jessica_infoshop.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+#BA_section {
+  display: inline-block;
+  position: relative;
+  width: 84%;
+  left: 9%;
+  margin-top: 20px;
+}
+
+#BA_inner {
+  padding-top: 59%;
+}
+
+.BA_picdiv {
+  background-image: url("images/blick_phone_annot_single.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#BC_section {
+  display: inline-block;
+  position: relative;
+  width: 90%;
+  left: 11%;
+  margin-top: 20px;
+}
+
+#BC_inner {
+  padding-top: 79%;
+}
+
+.BC_picdiv {
+  background-image: url("images/blick_desk_checkout.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#BHF_section {
+  display: inline-block;
+  position: relative;
+  width: 90%;
+  left: 11%;
+  margin-top: 40px;
+}
+
+#BHF_inner {
+  padding-top: 19%;
+}
+
+.BHF_picdiv {
+  background-image: url("images/blick_images_row.jpg");
+  /*box-shadow: 10px 10px 5px #999;*/
+  background-size: 80%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
