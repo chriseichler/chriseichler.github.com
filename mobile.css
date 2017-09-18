@@ -5,10 +5,10 @@
   grid-template-columns: 1fr;
 }
 
-.grid-project {
+.grid-hash {
   height: 100vh;
   display: grid;
-  grid-template-rows: 120px 1350px 2100px 1850px 1020px 1650px 2150px 2250px 960px 110px;
+  grid-template-rows: 120px 1350px 2100px 2100px 1020px 1650px 2150px 2250px 960px 110px;
   grid-template-columns: 1fr;
 }
 
