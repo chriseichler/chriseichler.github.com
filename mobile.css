@@ -53,7 +53,7 @@ body {
 .grid-blick {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 1020px 1400px 650px 530px 920px 1350px 1720px 950px 120px;
+  grid-template-rows: 110px 1450px 1400px 650px 530px 920px 1350px 1720px 950px 120px;
   grid-template-columns: 1fr;
 }
 
