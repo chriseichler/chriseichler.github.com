@@ -42,7 +42,7 @@ body {
 .grid-project-infoshop {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 950px 600px 2150px 480px 1200px 250px 950px 1900px 2650px 120px;
+  grid-template-rows: 110px 950px 600px 2150px 510px 1200px 250px 950px 1900px 2650px 120px;
   grid-template-columns: 1fr;
 }
 
