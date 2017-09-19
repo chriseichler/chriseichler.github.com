@@ -726,3 +726,8 @@ a:visited, a:link {
   left: 0;
   right: 0;
 }
+
+.centermobile{
+    text-align: center;
+    margin: auto;
+}
