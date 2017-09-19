@@ -39,14 +39,14 @@ body {
 .grid-hash {
   height: 100vh;
   display: grid;
-  grid-template-rows: 120px 1350px 2230px 2760px 1120px 1650px 2150px 2475px 960px 110px;
+  grid-template-rows: 120px 1350px 2230px 3000px 1120px 1650px 2150px 2475px 960px 110px;
   grid-template-columns: 1fr;
 }
 
 .grid-info {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 950px 800px 2550px 510px 1200px 365px 950px 1900px 2650px 120px;
+  grid-template-rows: 110px 950px 900px 2550px 510px 1200px 425px 950px 1900px 2650px 120px;
   grid-template-columns: 1fr;
 }
 
@@ -161,6 +161,9 @@ a:visited, a:link {
   font-size: 1.3em;
   padding: 10px 10px 10px 10px;
 }*/
+.centermobile{
+    margin: auto;
+}
 
 .hash, .infoshop, .blick {
 /*  display: flex;
@@ -168,7 +171,6 @@ a:visited, a:link {
   justify-content: center
   align-items: center;
 */  /*padding: 24px 10px 0px 35px;*/
-  margin: auto;
 }
 
 .hash {
