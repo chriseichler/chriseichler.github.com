@@ -25,9 +25,12 @@ body {
 
 .bottom.stripe {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3.5em;
 }
 
+#madeby span {
+  font-size: 1.5em;
+}
 
 .m-grid {
   height: 100vh;
@@ -193,10 +196,6 @@ a:visited, a:link {
 
 .blick {
   padding: 55px 0px 0px 16px;
-}
-
-#madeby {
-  font-size: 1.5em;
 }
 
 .content1-hash {
