@@ -28,14 +28,19 @@ body {
   font-size: 3.5em;
 }
 
-#madeby span {
+span#madeby {
   font-size: 1.5em;
+}
+
+p#bottomlinks {
+  text-align: center;
+  font-size: 3.5em;
 }
 
 .m-grid {
   height: 100vh;
   display: grid;
-  grid-template-rows: 200px 200px 200px 600px 200px 200px 600px 200px 600px 180px;
+  grid-template-rows: 250px 200px 200px 600px 200px 200px 600px 200px 600px 250px;
   grid-template-columns: 1fr;
 }
 
@@ -158,8 +163,9 @@ a:visited, a:link {
 }
 
 #titlespan {
-  float: right;
+  float: left;
   padding-right: 10px;
+  padding-left: 25px;
   color: #365193;
   font-size: .8em;
 }
