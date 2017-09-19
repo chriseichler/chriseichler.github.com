@@ -191,6 +191,10 @@ a:visited, a:link {
   padding: 55px 0px 0px 16px;
 }
 
+#madeby {
+  font-size: 1.5em;
+}
+
 .content1-hash {
   background-color: #fff;
   color: #222;
