@@ -42,7 +42,7 @@ body {
 .grid-hash {
   height: 100vh;
   display: grid;
-  grid-template-rows: 120px 1350px 2230px 3000px 1120px 1650px 2150px 2475px 960px 110px;
+  grid-template-rows: 120px 1350px 2230px 3350px 1350px 1650px 2150px 2555px 960px 110px;
   grid-template-columns: 1fr;
 }
 
