@@ -25,35 +25,35 @@ body {
 
 .bottom.stripe {
   text-align: center;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 
 .m-grid {
   height: 100vh;
   display: grid;
-  grid-template-rows: 180px 600px 200px 600px 200px 200px 600px 200px 600px 180px;
+  grid-template-rows: 200px 200px 200px 600px 200px 200px 600px 200px 600px 180px;
   grid-template-columns: 1fr;
 }
 
 .grid-hash {
   height: 100vh;
   display: grid;
-  grid-template-rows: 120px 1350px 2230px 2660px 1120px 1650px 2150px 2400px 960px 110px;
+  grid-template-rows: 120px 1350px 2230px 2760px 1120px 1650px 2150px 2475px 960px 110px;
   grid-template-columns: 1fr;
 }
 
 .grid-info {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 950px 800px 2550px 510px 1200px 290px 950px 1900px 2650px 120px;
+  grid-template-rows: 110px 950px 800px 2550px 510px 1200px 365px 950px 1900px 2650px 120px;
   grid-template-columns: 1fr;
 }
 
 .grid-blick {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 1450px 1400px 650px 530px 920px 1350px 1720px 950px 120px;
+  grid-template-rows: 110px 1475px 1950px 650px 530px 920px 1350px 1720px 950px 120px;
   grid-template-columns: 1fr;
 }
 
@@ -163,11 +163,12 @@ a:visited, a:link {
 }*/
 
 .hash, .infoshop, .blick {
-  display: flex;
+/*  display: flex;
   flex-direction: column;
   justify-content: center
   align-items: center;
-  /*padding: 24px 10px 0px 35px;*/
+*/  /*padding: 24px 10px 0px 35px;*/
+  margin: auto;
 }
 
 .hash {
