@@ -27,6 +27,7 @@ body {
   width: 100vw;
   height: 100vh;
   grid-template-rows: 110px 650px 650px 100px;
+  /*grid-template-rows: 110px auto auto 100px;*/
   /*grid-template-columns: .25fr .25fr .25fr .25fr;*/
   grid-template-columns: repeat(4, 25vw);
 }

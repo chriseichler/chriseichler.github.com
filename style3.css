@@ -1,0 +1,294 @@
+.container {
+  display: flex;
+  width: 1fr;
+  min-height: 100px;
+  overflow: hidden;
+  margin: 120px;
+  /*border:1px solid grey;*/
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.item {
+  height: 500px;
+  width: 36vw;
+  /*background: blue;*/
+  flex-shrink: 0;
+  /*border: 10px solid black;*/
+}
+
+.item1 {
+  border: none;
+}
+
+.itemseven {
+  align-self: flex-end;
+  margin-bottom: 350px;
+  /*margin-right: 0;*/
+}
+
+.items {
+    margin-top: -150px;
+}
+
+.container .item:nth-child(1) {
+  margin-top: 30px;
+}
+
+#footer {
+  width: 70%;
+  margin: 0 auto 0 auto;
+  height: 80px;
+  border-top: 1px solid black;
+  /*background: #ddd;*/
+  text-align: center;
+  font-size: 1.2em;
+  padding: 30px;
+  font-family: avenir, sans-serif;
+  line-height: 1.3em;
+}
+
+#title_section {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  left: 0%;
+  margin-top: 0px;
+}
+
+#title_inner {
+  padding-top: 110%;
+}
+
+.title_picdiv {
+  background-image: url("images/chriseichlerux3.jpg");
+  /*box-shadow: 10px 10px 5px #999;*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#hash_section {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  left: 0%;
+  margin-top: 0px;
+}
+
+#hash_inner {
+  padding-top: 170%;
+}
+
+.hash_picdiv {
+  background-image: url("images/HashHomepageImage.jpg");
+  /*box-shadow: 10px 10px 5px #999;*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#info_section {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  left: 0%;
+  margin-top: 0px;
+}
+
+#info_inner {
+  padding-top: 170%;
+}
+
+.info_picdiv {
+  background-image: url("images/infoshopsitemap_image_cover.jpg");
+  /*box-shadow: 10px 10px 5px #999;*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#blick_section {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  left: 0%;
+  margin-top: 0px;
+}
+
+#blick_inner {
+  padding-top: 180%;
+}
+
+.blick_picdiv {
+  background-image: url("images/blick_iphone_cover.jpg");
+  /*box-shadow: 10px 10px 5px #999;*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 0px 0 0px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+/************** AT MEDIA RULES ************/
+/* Large desktop */
+@media (min-width: 1000px) {
+ body { font-size:100%;
+ line-height: 100%;}
+
+  .item {
+    width: 36vw;
+    margin-top: -150px;
+  }
+
+  .item1 {
+    margin-top: 0px;
+  }
+
+  .itemseven {
+    align-self: flex-end;
+  }
+
+  .container {
+    margin: 100px;
+  }
+}
+
+@media (max-width: 999px) {
+ body { font-size: 110%;
+ line-height: 110%;}
+
+ .item {
+  width: 75vw;
+  margin-top: 40px;
+  height: 850px;
+ }
+
+   #hash_cover {
+  height: 910px;
+ }
+
+ #info_cover {
+  height: 970px;
+ }
+
+ .itemseven {
+  align-self: left;
+ }
+
+ .container {
+  margin: 20px;
+  margin-bottom: 50px;
+  align-items: center;
+ }
+
+.itemseven, .itemsodd {
+  align-self: center;
+}
+
+}
+
+@media (max-width: 899px) {
+ body { font-size: 110%;
+ line-height: 110%;}
+
+ .item {
+  height: 750px;
+ }
+
+#hash_cover {
+  height: 770px;
+ }
+
+ #info_cover {
+  height: 850px;
+ }
+}
+
+@media (max-width: 769px) {
+ body { font-size: 110%;
+ line-height: 110%;}
+
+ .item {
+  height: 600px;
+ }
+
+   #hash_cover {
+  height: 610px;
+ }
+
+  #info_cover {
+  height: 720px;
+ }
+}
+
+@media (max-width: 629px) {
+ body { font-size: 110%;
+ line-height: 110%;}
+
+ .item {
+  height: 500px;
+ }
+
+   #hash_cover {
+  height: 430px;
+ }
+
+ #info_cover {
+  height: 600px;
+ }
+}
+
+@media (max-width: 539px) {
+ body { font-size: 110%;
+ line-height: 110%;}
+
+ .item {
+  height: 400px;
+ }
+
+ #hash_cover {
+  height: 310px;
+ }
+
+ #info_cover {
+  height: 500px;
+ }
+}
+
+@media (max-width: 419px) {
+ body { font-size: 110%;
+ line-height: 110%;}
+
+ .item {
+  height: 310px;
+ }
+
+  #hash_cover {
+  height: 170px;
+ }
+
+ #info_cover {
+  height: 400px;
+ }
+}
