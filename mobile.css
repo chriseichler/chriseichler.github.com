@@ -47,7 +47,7 @@ p#bottomlinks {
 .grid-hash {
   height: 100vh;
   display: grid;
-  grid-template-rows: 200px 1350px 2230px 3350px 1350px 1650px 2150px 2555px 960px 200px;
+  grid-template-rows: 200px 2350px 2230px 3350px 1350px 1650px 2150px 2555px 960px 200px;
   grid-template-columns: 1fr;
 }
 
