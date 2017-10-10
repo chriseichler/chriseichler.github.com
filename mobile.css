@@ -40,28 +40,28 @@ p#bottomlinks {
 .m-grid {
   height: 100vh;
   display: grid;
-  grid-template-rows: 250px 200px 200px 600px 200px 200px 600px 200px 600px 250px;
+  /*grid-template-rows: 250px 200px 200px 600px 200px 200px 600px 200px 600px 250px;*/
   grid-template-columns: 1fr;
 }
 
 .grid-hash {
   height: 100vh;
   display: grid;
-  grid-template-rows: 200px 1950px 3120px 3350px 1350px 1650px 2150px 2555px 960px 200px;
+  /*grid-template-rows: 200px 1950px 3120px 3350px 1350px 1650px 2150px 2555px 960px 200px;*/
   grid-template-columns: 1fr;
 }
 
 .grid-info {
   height: 100vh;
   display: grid;
-  grid-template-rows: 200px 950px 900px 2550px 510px 1200px 425px 950px 1900px 2650px 200px;
+  /*grid-template-rows: 200px 950px 900px 2550px 510px 1200px 425px 950px 1900px 2650px 200px;*/
   grid-template-columns: 1fr;
 }
 
 .grid-blick {
   height: 100vh;
   display: grid;
-  grid-template-rows: 200px 1680px 1950px 650px 530px 920px 1350px 1720px 950px 200px;
+  /*grid-template-rows: 200px 1680px 1950px 650px 530px 920px 1350px 1720px 950px 200px;*/
   grid-template-columns: 1fr;
 }
 
