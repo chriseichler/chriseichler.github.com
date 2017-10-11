@@ -15,17 +15,17 @@ body {
 .textbox {
   width: 75%;
   margin: auto;
-  font-size: 3.5em;
+  font-size: 1.5em;
 }
 
 .text2 {
   margin: auto;
-  font-size: 3.5em;
+  font-size: 1.5em;
 }
 
 .bottom.stripe {
   text-align: center;
-  font-size: 3.5em;
+  font-size: 1.5em;
 }
 
 span#madeby {
