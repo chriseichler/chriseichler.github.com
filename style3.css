@@ -13,7 +13,6 @@
 .item {
   height: 500px;
   width: 36vw;
-  /*background: blue;*/
   flex-shrink: 0;
   /*border: 10px solid black;*/
 }
@@ -49,6 +48,7 @@
   line-height: 1.3em;
 }
 
+/* Nested Div CSS Background image responsive image rules below */
 #title_section {
   display: inline-block;
   position: relative;
@@ -259,7 +259,7 @@
  }
 
   #footer {
-    font-size: 2em;
+    font-size: 2.2em;
  }
 }
 

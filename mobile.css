@@ -4,7 +4,7 @@ body {
 
 .mobileproject {
   font-family: 'Roboto Slab', serif;
-  font-size: 3.5em;
+  font-size: 3.3em;
 }
 
 .textbox {
@@ -34,7 +34,7 @@ which means automatic adjusting height to fit content*/
 .stripe {
   /*border-bottom: 20px solid #367960;*/
   font-family: 'Rubik', sans-serif;
-  font-size: 3em;
+  font-size: 3.3em;
   background: #efe; /* For browsers that do not support gradients */
   grid-column-start: 1;
   grid-column-end: 5;
@@ -57,7 +57,7 @@ h1 {
 
 .bottom.stripe {
   background-color: #fff;
-  font-size: 1.8em;
+  font-size: 2.5em;
   text-align: center;
 }
 
@@ -259,10 +259,6 @@ a:visited, a:link {
   text-align: center;
   background-color: #fff;
   padding: 40px 70px 20px 30px;
-}
-
-.content7-infoshop p {
-  font-size: 2em;
 }
 
 .content7-blick {
