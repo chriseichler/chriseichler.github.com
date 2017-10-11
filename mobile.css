@@ -25,18 +25,18 @@ body {
 
 .bottom.stripe {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 span#madeby {
   font-size: 1em;
 }
 
-p#bottomlinks {
+/*p#bottomlinks {
   text-align: center;
   font-size: 2em;
   color: red;
-}
+}*/
 
 .m-grid {
   height: 100vh;
@@ -392,6 +392,14 @@ a:visited, a:link {
   text-align: center;
   padding: 75px 70px 70px 30px;
   background: #E2F9F8;
+}
+
+.content9-infoshop {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  padding: 75px 70px 70px 30px;
+  background: #FFF;
 }
 
 #IS1_section, #IS2_section {
