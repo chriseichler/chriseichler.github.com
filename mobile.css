@@ -214,8 +214,26 @@ a:visited, a:link {
   grid-column-end: span 1;
 }
 
+.content1-infoshop {
+  background-color: #fff;
+  color: #222;
+  text-align: center;
+  padding: 35px 0 0 0;
+  grid-column-start: 1;
+  grid-column-end: span 1;
+}
+
 .content2-hash {
   background-color: #fff;
+  color: #222;
+  text-align: center;
+  padding: 25px 30px 20px 30px;
+  grid-column-start: 1;
+  grid-column-end: span 1;
+}
+
+.content2-infoshop {
+  background-color: #E2F9F8;
   color: #222;
   text-align: center;
   padding: 25px 30px 20px 30px;
@@ -231,6 +249,16 @@ a:visited, a:link {
   padding: 55px 160px 0 70px;
   display: inline-block;
 }
+
+.content3-infoshop {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  background-color: #efe;
+  padding: 120px 160px 0 160px;
+  display: inline-block;
+}
+
 
 .content3-blick {
   grid-column-start: 1;
@@ -262,6 +290,15 @@ a:visited, a:link {
   /*float: left;*/
 }
 
+.content4-infoshop {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  background-color: #fff;
+  padding: 85px 100px 0 100px;
+  /*display: inline-block;*/
+}
+
 .content4-blick {
   grid-column-start: 1;
   grid-column-end: span 1;
@@ -282,7 +319,7 @@ a:visited, a:link {
   padding: 65px 0 30px 0;
 }
 
-.content5-hash {
+.content5-hash, .content5-infoshop {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
@@ -297,6 +334,15 @@ a:visited, a:link {
   padding: 75px 70px 70px 30px;
   background-color: #48758A;
   color: #fff;
+}
+
+.content6-infoshop {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  padding: 0px 50px 10px 50px;
+  background-color: #FAE597;
+  color: #222;
 }
 
 .content6-blick {
@@ -316,6 +362,14 @@ a:visited, a:link {
   padding: 75px 70px 70px 30px;
 }
 
+.content7-infoshop {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  background-color: #fff;
+  padding: 30px 70px 20px 30px;
+}
+
 .content7-blick {
   grid-column-start: 1;
   grid-column-end: span 1;
@@ -330,6 +384,14 @@ a:visited, a:link {
   text-align: center;
   background-color: #efe;
   padding: 35px 30px 0 30px;
+}
+
+.content8-infoshop {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  padding: 75px 70px 70px 30px;
+  background: #E2F9F8;
 }
 
 #IS1_section, #IS2_section {
