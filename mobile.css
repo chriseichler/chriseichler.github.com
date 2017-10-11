@@ -18,16 +18,6 @@ body {
   font-size: 1em;
 }
 
-/*span#madeby {
-  font-size: 1.4em;
-}*/
-
-p#bottomlinks {
-  text-align: center;
-  font-size: 2em;
-}
-
-
 .grid-hash, .grid-info, .grid-blick {
   height: 100vh;
   display: grid;
@@ -44,7 +34,7 @@ which means automatic adjusting height to fit content*/
 .stripe {
   /*border-bottom: 20px solid #367960;*/
   font-family: 'Rubik', sans-serif;
-  font-size: 2em;
+  font-size: 3em;
   background: #efe; /* For browsers that do not support gradients */
   grid-column-start: 1;
   grid-column-end: 5;
@@ -57,11 +47,18 @@ which means automatic adjusting height to fit content*/
 
 h1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
+
+/*p#bottomlinks {
+  text-align: center;
+  font-size: 2em;
+}*/
 
 .bottom.stripe {
   background-color: #fff;
+  font-size: 1.8em;
+  text-align: center;
 }
 
 
@@ -81,12 +78,7 @@ a:visited, a:link {
   color: #365193;
   font-size: .8em;
 }
-/*
-.fillings1 p {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.3em;
-  padding: 10px 10px 10px 10px;
-}*/
+
 .centermobile{
     text-align: center;
     margin: auto;
@@ -94,26 +86,6 @@ a:visited, a:link {
 
 .centermobilehome {
   padding: 25px 0 0px 290px;
-}
-
-.hash, .infoshop, .blick {
-/*  display: flex;
-  flex-direction: column;
-  justify-content: center
-  align-items: center;
-*/  /*padding: 24px 10px 0px 35px;*/
-}
-
-.hash {
-  padding: 25px 10px 0px 35px;
-}
-
-.infoshop {
-  padding: 65px 0px 0px 20px;
-}
-
-.blick {
-  padding: 55px 0px 0px 16px;
 }
 
 .content1-hash {
@@ -290,7 +262,7 @@ a:visited, a:link {
 }
 
 .content7-infoshop p {
-  font-size: 1.6em;
+  font-size: 2em;
 }
 
 .content7-blick {
@@ -324,6 +296,8 @@ a:visited, a:link {
   padding: 75px 70px 80px 30px;
   background: #FFF;
 }
+
+/* Nested Div CSS Background image responsive image rules below */
 
 #IS1_section, #IS2_section {
   display: inline-block;
