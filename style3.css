@@ -254,11 +254,11 @@
   height: 430px;
  }
 
- #info_cover {
+   #info_cover {
   height: 600px;
  }
 
-  #footer {
+  #footer p {
     font-size: 2.2em;
  }
 }
