@@ -257,6 +257,10 @@
  #info_cover {
   height: 600px;
  }
+
+  #footer {
+    font-size: 1.7em;
+ }
 }
 
 @media (max-width: 539px) {
