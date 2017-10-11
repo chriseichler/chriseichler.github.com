@@ -25,7 +25,7 @@ body {
 
 .bottom.stripe {
   text-align: center;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 span#madeby {
@@ -35,6 +35,7 @@ span#madeby {
 p#bottomlinks {
   text-align: center;
   font-size: 2em;
+  color: red;
 }
 
 .m-grid {
@@ -231,9 +232,22 @@ a:visited, a:link {
   display: inline-block;
 }
 
+.content3-blick {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  background-color: #efe;
+  padding: 70px 70px 70px 70px;
+  display: inline-block;
+}
+
 .content3-hash img {
   float: left;
   padding: 0 70px 0 15px;
+}
+
+.content3-blick img {
+  padding: 0 70px 0 70px;
 }
 
 .content4-hash {
@@ -252,9 +266,8 @@ a:visited, a:link {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
-  font-size: 1em;
   background-color: #FAE597;
-  padding: 85px 70px 0 70px;
+  padding: 85px 40px 80px 40px;
   /*display:flex;*/
   /*justify-content: flex-start;*/
   /*float: left;*/
