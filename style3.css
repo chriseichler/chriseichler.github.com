@@ -152,6 +152,15 @@
 
 /************** AT MEDIA RULES ************/
 /* Large desktop */
+@media (min-width: 1441px) {
+ body { font-size:100%;
+ line-height: 100%;}
+
+  .item {
+    height: 700px;
+  }
+}
+
 @media (min-width: 1000px) {
  body { font-size:100%;
  line-height: 100%;}
@@ -174,7 +183,53 @@
   }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1189px) {
+ body { font-size:100%;
+ line-height: 100%;}
+
+  .item {
+    width: 36vw;
+    margin-top: -150px;
+    height: 350px;
+  }
+
+  .item1 {
+    margin-top: 0px;
+  }
+
+  .itemseven {
+    align-self: flex-end;
+  }
+
+  .container {
+    margin: 100px;
+  }
+}
+
+@media (max-width: 979px) {
+ body { font-size:100%;
+ line-height: 100%;}
+
+  .item {
+    width: 36vw;
+    margin-top: -150px;
+    height: 280px;
+  }
+
+  .item1 {
+    margin-top: 0px;
+  }
+
+  .itemseven {
+    align-self: flex-end;
+  }
+
+  .container {
+    margin: 100px;
+  }
+}
+
+@media (max-width: 899px) {
  body { font-size: 110%;
  line-height: 110%;}
 
