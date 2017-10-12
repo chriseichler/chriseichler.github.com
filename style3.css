@@ -206,6 +206,7 @@
   }
 }
 
+/*
 @media (max-width: 979px) {
  body { font-size:100%;
  line-height: 100%;}
@@ -228,8 +229,8 @@
     margin: 100px;
   }
 }
-
-@media (max-width: 899px) {
+*/
+@media (max-width: 979px) {
  body { font-size: 110%;
  line-height: 110%;}
 
