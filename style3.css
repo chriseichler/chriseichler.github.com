@@ -262,6 +262,12 @@
   align-self: center;
 }
 
+#footer p {
+  font-size: 2em;
+  color: darkblue;
+  line-height: 1.2em;
+}
+
 }
 
 @media (max-width: 899px) {
@@ -312,12 +318,6 @@
 
    #info_cover {
   height: 600px;
- }
-
-  #footer p {
-    font-size: 2em;
-    color: darkblue;
-    line-height: 1.2em;
  }
 }
 
