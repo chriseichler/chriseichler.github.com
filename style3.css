@@ -188,21 +188,7 @@
  line-height: 100%;}
 
   .item {
-    width: 36vw;
-    margin-top: -150px;
     height: 350px;
-  }
-
-  .item1 {
-    margin-top: 0px;
-  }
-
-  .itemseven {
-    align-self: flex-end;
-  }
-
-  .container {
-    margin: 100px;
   }
 }
 
@@ -230,7 +216,7 @@
   }
 }
 */
-@media (max-width: 979px) {
+@media (max-width: 999px) {
  body { font-size: 110%;
  line-height: 110%;}
 
