@@ -50,14 +50,14 @@ body {
 .grid-project-blick {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 940px 1875px 650px 530px 920px 1350px 1720px 950px 120px;
+  /*grid-template-rows: 110px 940px 1875px 650px 530px 920px 1350px 1720px 950px 120px;*/
   grid-template-columns: 1fr;
   /*font-size: .8em;*/
 }
 
 .stripe {
   /*border-bottom: 20px solid #367960;*/
-  background: #efe;
+  background: #EBE8E8;
   grid-column-start: 1;
   grid-column-end: 5;
   display: inline;
@@ -140,15 +140,13 @@ a:visited, a:link {
   grid-column-end: span 1;
 }
 
-#namespan {
-  padding-left: 20px;
+#nameimage {
+  padding: 30px 0 10px 20px;
 }
 
-#titlespan {
+#titleimage {
   float: right;
-  padding-right: 40px;
-  color: #365193;
-  font-size: .8em;
+  padding: 30px 40px 20px 0;
 }
 
 .hash, .infoshop, .blick {
@@ -727,3 +725,11 @@ a:visited, a:link {
   left: 0;
   right: 0;
 }
+
+/*@media (max-width: 1130px) {
+#titleimage {
+  float: left;
+  padding: 0 0 20px 25px;
+  }
+}
+*/
