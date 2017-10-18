@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto Slab', serif;
+  margin: 0;
 }
 
 .project {
@@ -35,7 +36,7 @@ body {
 .grid-project-hashtravel {
   height: 100vh;
   display: grid;
-  grid-template-rows: 110px 850px 1550px 650px 530px 1150px 1350px 1500px 950px 120px;
+  /*grid-template-rows: 110px 850px 1550px 650px 530px 1150px 1350px 1500px 950px 120px;*/
   grid-template-columns: 1fr;
     /*font-size: 1em;*/
 }
@@ -53,6 +54,10 @@ body {
   grid-template-rows: 110px 940px 1875px 650px 530px 920px 1350px 1720px 950px 120px;
   grid-template-columns: 1fr;
   /*font-size: .8em;*/
+}
+
+.grid-project-hashtravel .project {
+  padding: 40px 0 50px 0;
 }
 
 .stripe {
