@@ -3,9 +3,10 @@ body {
   margin: 0;
 }
 
-.project {
+div.project {
   font-family: 'Roboto Slab', serif;
   font-size: 1.1em;
+  padding: 40px 0 50px 0;
 }
 
 .stripe, h1 {
@@ -33,32 +34,17 @@ body {
   grid-template-columns: repeat(4, 25vw);
 }
 
-.grid-project-hashtravel {
+.grid-project-hashtravel, .grid-project-infoshop, .grid-project-blick {
   height: 100vh;
   display: grid;
+  grid-template-columns: 1fr;
+}
+
+  /*Old Hash, Infoshop, Blick explicit height rules below*/
   /*grid-template-rows: 110px 850px 1550px 650px 530px 1150px 1350px 1500px 950px 120px;*/
-  grid-template-columns: 1fr;
-    /*font-size: 1em;*/
-}
+  /*grid-template-rows: 110px 950px 600px 2150px 510px 1200px 250px 950px 1900px 2650px 120px;*/
+  /*grid-template-rows: 110px 940px 1875px 650px 530px 920px 1350px 1720px 950px 120px;*/
 
-.grid-project-infoshop {
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 110px 950px 600px 2150px 510px 1200px 250px 950px 1900px 2650px 120px;
-  grid-template-columns: 1fr;
-}
-
-.grid-project-blick {
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 110px 940px 1875px 650px 530px 920px 1350px 1720px 950px 120px;
-  grid-template-columns: 1fr;
-  /*font-size: .8em;*/
-}
-
-.grid-project-hashtravel .project {
-  padding: 40px 0 50px 0;
-}
 
 .stripe {
   /*border-bottom: 20px solid #367960;*/
