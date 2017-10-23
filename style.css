@@ -22,6 +22,7 @@ div.project {
 .text2 {
   margin: auto;
   font-size: 1.1em;
+  padding: 0 20px 0 0;
 }
 
 .grid {
@@ -59,6 +60,7 @@ div.project {
 
 .top.stripe {
   border-bottom: 6px solid black;
+  /*background: #fff;*/
 }
 
 a:visited, a:link {
@@ -529,7 +531,7 @@ a:visited, a:link {
 #IS1_section, #IS2_section {
   display: inline-block;
   position: relative;
-  width: 90%;
+  width: 78%;
   left: 11%;
   margin-top: 0px;
 }
@@ -561,7 +563,7 @@ a:visited, a:link {
 #midfi1_section, #midfi2_section {
   display: inline-block;
   position: relative;
-  width: 84%;
+  width: 72%;
   left: 14%;
   margin-top: 0px;
 }
@@ -616,7 +618,7 @@ a:visited, a:link {
 #HTR_section, #HTR2_section {
   display: inline-block;
   position: relative;
-  width: 80%;
+  width: 75%;
   left: 12.5%;
   margin-top: 0px;
 }
@@ -651,7 +653,7 @@ a:visited, a:link {
 #BA_section {
   display: inline-block;
   position: relative;
-  width: 84%;
+  width: 82%;
   left: 9%;
   margin-top: 20px;
 }
@@ -675,7 +677,7 @@ a:visited, a:link {
 #BC_section {
   display: inline-block;
   position: relative;
-  width: 90%;
+  width: 78%;
   left: 11%;
   margin-top: 20px;
 }
@@ -699,7 +701,7 @@ a:visited, a:link {
 #BHF_section {
   display: inline-block;
   position: relative;
-  width: 94%;
+  width: 80%;
   left: 10%;
   margin-top: 40px;
 }

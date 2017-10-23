@@ -45,7 +45,7 @@
   font-size: 1.2em;
   padding: 30px;
   font-family: avenir, sans-serif;
-  line-height: 1.3em;
+  line-height: .7em;
 }
 
 /* Nested Div CSS Background image responsive image rules below */
@@ -249,7 +249,7 @@
 }
 
 #footer p {
-  font-size: 1.9em;
+  font-size: 1.8em;
   line-height: 1.2em;
 }
 
