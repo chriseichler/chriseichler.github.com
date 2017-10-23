@@ -98,6 +98,15 @@ a:visited, a:link {
   padding: 25px 0 0px 290px;
 }
 
+#personas {
+  background: #eee;
+  padding: 50px 0 65px 0;
+}
+
+strong {
+  font-size: 1.4em;
+}
+
 .content1-hash {
   background-color: #fff;
   color: #222;
