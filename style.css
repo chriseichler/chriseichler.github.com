@@ -17,12 +17,20 @@ div.project {
   width: 55%;
   margin: auto;
   font-size: 1.1em;
+  line-height: 1.8em;
 }
 
 .text2 {
   margin: auto;
   font-size: 1.1em;
-  padding: 0 20px 0 0;
+  padding: 0 50px 0 0;
+  line-height: 1.8em;
+  text-align: left;
+}
+
+#infoprofiletext li {
+    font-size: 1.1em;
+    line-height: 1.8em;
 }
 
 .grid {
