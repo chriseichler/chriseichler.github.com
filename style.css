@@ -1,5 +1,6 @@
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab:300', serif;
+  font-weight: 300;
   margin: 0;
   font-size: 1.1em;
   line-height: 1.8em;
@@ -7,6 +8,7 @@ body {
 
 div.project {
   font-family: 'Roboto Slab', serif;
+  font-weight: 300;
   font-size: 1.1em;
   padding: 50px 0 50px 0;
 }
@@ -64,8 +66,12 @@ div.project {
   /*background: #fff;*/
 }
 
-strong {
+.numbers {
   font-size: 1.4em;
+}
+
+.bold {
+  font-weight: 400;
 }
 
 a:visited, a:link {

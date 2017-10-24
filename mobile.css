@@ -1,10 +1,12 @@
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab:300', serif;
+  font-weight: 300;
   margin: 0;
 }
 
 .mobileproject {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab:300', serif;
+  font-weight: 300;
   font-size: 3.3em;
 }
 
@@ -103,8 +105,12 @@ a:visited, a:link {
   padding: 50px 0 65px 0;
 }
 
-strong {
+.numbers {
   font-size: 1.4em;
+}
+
+.bold {
+  font-weight: 400;
 }
 
 .content1-hash {
