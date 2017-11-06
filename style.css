@@ -179,7 +179,16 @@ a:visited, a:link {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
-  background-color: #f7ddb9;
+  background-color: #eadbc5;
+  padding: 55px 160px 0 70px;
+  display: inline-block;
+}
+
+.content3-blick {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  background-color: #F2F2F2;
   padding: 55px 160px 0 70px;
   display: inline-block;
 }
@@ -305,7 +314,15 @@ a:visited, a:link {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
-  background-color: #f7ddb9;
+  background-color: #eadbc5;
+  padding: 35px 30px 0 30px;
+}
+
+.content8-blick {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  background-color: #fff;
   padding: 35px 30px 0 30px;
 }
 
