@@ -216,13 +216,20 @@ a:visited, a:link {
   /*display: inline-block;*/
 }
 
-.content4-infoshop {
+.content3-5-infoshop {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
   background-color: #fff;
   padding: 85px 100px 0 100px;
-  /*display: inline-block;*/
+}
+
+.content4-infoshop {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  background-color: #eee;
+  padding: 25px 100px 0 100px;
 }
 
 
