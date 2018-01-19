@@ -32,7 +32,7 @@ div.project {
   display: grid;
   width: 100vw;
   height: 100vh;
-  grid-template-rows: 110px 650px 650px 100px;
+  grid-template-rows: 110px 750px 650px 100px;
   /*grid-template-rows: 110px auto auto 100px;*/
   /*grid-template-columns: .25fr .25fr .25fr .25fr;*/
   grid-template-columns: repeat(4, 25vw);
@@ -44,6 +44,15 @@ div.project {
   grid-template-columns: 1fr;
 }
 
+.grid-about {
+  font-family: 'Roboto Slab', serif;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid-about .double-column {
+  padding: 60px 0 0 0;
+}
   /*Old Hash, Infoshop, Blick explicit height rules below*/
   /*grid-template-rows: 110px 850px 1550px 650px 530px 1150px 1350px 1500px 950px 120px;*/
   /*grid-template-rows: 110px 950px 600px 2150px 510px 1200px 250px 950px 1900px 2650px 120px;*/
@@ -53,8 +62,6 @@ div.project {
 .stripe {
   /*border-bottom: 20px solid #367960;*/
   background: #EBE8E8;
-  grid-column-start: 1;
-  grid-column-end: 5;
   display: inline;
   font-size: 2em;
   /*text-align: right;*/
@@ -445,7 +452,8 @@ a:visited, a:link {
 }
 
 #aboutdiv {
-  font-size: .7em;
+  padding: 0 0 0 35px;
+  width: 500px;
 }
 
 #madeby {
@@ -474,7 +482,7 @@ a:visited, a:link {
 }
 
 #abouttag {
-  padding-left: 20px;
+  padding-left: 18%;
 }
 
 #L1_section, #L2_section, #L3_section, #L4_section, #L5_section, #L6_section, #L7_section {
@@ -724,6 +732,7 @@ a:visited, a:link {
   right: 0;
 }
 
+/*Dropdown Menu Styles*/
 .mobile-nav {
   /*float: right;*/
   padding: 20px 40px 0 25px;

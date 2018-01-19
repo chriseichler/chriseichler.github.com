@@ -518,3 +518,56 @@ a:visited, a:link {
   left: 0;
   right: 0;
 }
+
+/*Dropdown Menu Styles*/
+.mobile-nav {
+  /*float: right;*/
+  padding: 20px 40px 0 25px;
+  position: absolute;
+  background: #EBE8E8;
+}
+
+.menu-btn div {
+  position: absolute;
+  left: 100%;
+  top: 64%;
+  padding-right: 8px;
+  margin-top: -0.50em;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 200;
+  vertical-align: middle;
+  z-index: 99;
+}
+
+.menu-btn span {
+  display: block;
+  width: 24px;
+  height: 3px;
+  margin: 6px 0;
+  background: rgb(0,0,0);
+  z-index: 99;
+}
+
+.responsive-menu{
+  display: none;
+  font-family: 'Roboto Slab', serif;
+}
+
+.expand {
+  display: block !important;
+}
+
+.expand li {
+    line-height: 1.8em;
+    color: black;
+    list-style: none;
+}
+
+.expand a {
+    text-decoration: none !important;
+}
+
+a:visited {
+    color: black;
+}
