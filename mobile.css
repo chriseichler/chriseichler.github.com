@@ -38,8 +38,8 @@ body {
   font-size: 1.8em;
 }
 
-.grid-about img {
-  padding: 20px 0 0 32px;
+#aboutdiv img {
+  padding: 25px 0 0 32px;
 }
 
 /*hash,info, and then blick pages old EXPLICIT CSS Grid Row height statements for mobile below.
