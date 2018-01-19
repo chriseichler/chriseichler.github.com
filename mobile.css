@@ -33,9 +33,9 @@ body {
   grid-template-columns: 1fr;
 }
 
-.grid-about .double-column {
+#aboutdiv {
   padding: 60px 0 0 15px;
-  font-size: 2.3em;
+  font-size: 2em;
 }
 
 /*hash,info, and then blick pages old EXPLICIT CSS Grid Row height statements for mobile below.
@@ -554,7 +554,7 @@ a:visited, a:link {
 
 .menu-btn span {
   display: block;
-  width: 44px;
+  width: 54px;
   height: 4px;
   margin: 14px 0;
   background: rgb(0,0,0);
@@ -571,7 +571,7 @@ a:visited, a:link {
 }
 
 .expand li {
-    line-height: 1.8em;
+    line-height: 2em;
     color: black;
     list-style: none;
 }
