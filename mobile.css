@@ -34,8 +34,8 @@ body {
 }
 
 .grid-about .double-column {
-  padding: 70px 0 0 20px;
-  font-size: 3.3em;
+  padding: 60px 0 0 15px;
+  font-size: 2.3em;
 }
 
 /*hash,info, and then blick pages old EXPLICIT CSS Grid Row height statements for mobile below.
@@ -554,9 +554,9 @@ a:visited, a:link {
 
 .menu-btn span {
   display: block;
-  width: 24px;
-  height: 3px;
-  margin: 6px 0;
+  width: 44px;
+  height: 4px;
+  margin: 14px 0;
   background: rgb(0,0,0);
   z-index: 99;
 }
