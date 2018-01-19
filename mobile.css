@@ -27,6 +27,17 @@ body {
   grid-template-columns: 1fr;
 }
 
+.grid-about {
+  font-family: 'Roboto Slab', serif;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid-about .double-column {
+  padding: 70px 0 0 20px;
+  font-size: 3.3em;
+}
+
 /*hash,info, and then blick pages old EXPLICIT CSS Grid Row height statements for mobile below.
 Now just not stating and letting them be IMPLICIT,
 which means automatic adjusting height to fit content*/
@@ -104,7 +115,8 @@ a:visited, a:link {
 }
 
 #nameimage {
-  padding: 0 0 5px 20px;
+  float: right;
+  padding: 22px 40px 20px 0;
 }
 
 #titleimage {
