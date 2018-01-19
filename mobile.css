@@ -39,7 +39,7 @@ body {
 }
 
 #aboutdiv img {
-  margin: auto;
+  padding: 20px 0 0 32px;
 }
 
 /*hash,info, and then blick pages old EXPLICIT CSS Grid Row height statements for mobile below.
