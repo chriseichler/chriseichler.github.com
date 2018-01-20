@@ -86,6 +86,7 @@ div.project {
 
 .double-column img {
   margin: 0 20px 25px 40px;
+  object-fit: contain;
 }
 
 .content7-hash h3 {
@@ -186,7 +187,7 @@ a:visited, a:link {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
-  background-color: #eadbc5;
+  background-color: #def7f0;
   padding: 55px 160px 0 70px;
   display: inline-block;
 }
@@ -328,7 +329,7 @@ a:visited, a:link {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
-  background-color: #eadbc5;
+  background-color: #def7f0;
   padding: 35px 30px 0 30px;
 }
 
@@ -755,9 +756,9 @@ a:visited, a:link {
 
 .menu-btn span {
   display: block;
-  width: 24px;
+  width: 30px;
   height: 3px;
-  margin: 6px 0;
+  margin: 8px 0;
   background: rgb(0,0,0);
   z-index: 99;
 }
