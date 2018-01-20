@@ -225,8 +225,8 @@ a:visited, a:link {
 }
 
 .content3-hash img {
-  float: left;
-  padding: 0 70px 0 15px;
+  /*float: left;*/
+  /*padding: 0 70px 0 15px;*/
 }
 
 .content3-blick img {
@@ -266,8 +266,8 @@ a:visited, a:link {
 }
 
 .content4-hash img {
-  float: left;
-  padding: 40px 90px 0 15px;
+  /*float: left;*/
+  /*padding: 40px 90px 0 15px;*/
 }
 
 .centerimage {
