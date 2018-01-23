@@ -107,6 +107,10 @@ a:visited, a:link {
   padding-top: 20px;
 }
 
+#infoprofiletext {
+  padding: 40px 0 0 0;
+}
+
 #namespan {
   padding-left: 25px;
 }
