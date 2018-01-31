@@ -102,6 +102,15 @@ div.project {
   font-weight: 400;
 }
 
+.link {
+  font-weight: 400;
+  color: darkblue;
+}
+
+.builtby {
+  font-size: .91em;
+}
+
 a:visited, a:link {
   text-decoration: none;
   color: #333;
