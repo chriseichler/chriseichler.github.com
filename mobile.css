@@ -165,6 +165,9 @@ a:visited, a:link {
   color: darkblue;
 }
 
+.callout {
+  color: darkorange;
+}
 
 .content1-hash {
   background-color: #fff;
