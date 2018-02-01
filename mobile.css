@@ -155,6 +155,12 @@ a:visited, a:link {
   font-weight: 400;
 }
 
+.link {
+  font-weight: 400;
+  color: darkblue;
+}
+
+
 .content1-hash {
   background-color: #fff;
   color: #222;
