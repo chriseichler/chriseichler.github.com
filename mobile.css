@@ -38,6 +38,11 @@ body {
   font-size: 1.8em;
 }
 
+.builtby {
+  font-size: 1.4em;
+}
+
+
 #aboutdiv img {
   padding: 25px 0 0 32px;
 }
