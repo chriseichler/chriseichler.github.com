@@ -70,6 +70,10 @@
   right: 0;
 }
 
+.title_picdiv:hover {
+  opacity: .9;
+}
+
 #hash_section {
   display: inline-block;
   position: relative;
@@ -93,6 +97,10 @@
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.hash_picdiv:hover {
+  opacity: .95;
 }
 
 #info_section {
@@ -120,6 +128,10 @@
   right: 0;
 }
 
+.info_picdiv:hover {
+  opacity: .9;
+}
+
 #blick_section {
   display: inline-block;
   position: relative;
@@ -145,6 +157,9 @@
   right: 0;
 }
 
+.blick_picdiv:hover {
+  opacity: .9;
+}
 
 /************** AT MEDIA RULES ************/
 /* Large desktop */
