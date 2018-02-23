@@ -224,7 +224,7 @@ span.bold {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
-  background-color: #efe;
+  background-color: #fff;
   padding: 120px 160px 0 160px;
   display: inline-block;
 }
@@ -233,8 +233,17 @@ span.bold {
   grid-column-start: 1;
   grid-column-end: span 1;
   text-align: center;
-  background-color: #fff;
+  background-color: #efe;
   padding: 85px 100px 0 100px;
+  display: inline-block;
+}
+
+.content3-6-infoshop {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  background-color: #fff;
+  padding: 0 0 0 0;
   display: inline-block;
 }
 
