@@ -87,7 +87,7 @@
 }
 
 .hash_picdiv {
-  background-image: url("images/HashHomepage3.jpg");
+  background-image: url("images/HashHomepage4.jpg");
   /*box-shadow: 10px 10px 5px #999;*/
   background-size: 100%;
   background-repeat: no-repeat;
@@ -162,6 +162,32 @@
 }
 
 /************** AT MEDIA RULES ************/
+
+@media
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-moz-min-device-pixel-ratio: 1.5),
+screen and (min-device-pixel-ratio: 1.5) {
+/*  #myimage {
+    background-image: url(hi-res.jpg);
+  }*/
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+    /* Retina-specific stuff here */
+  .info_picdiv {
+    background-image: url("images/infoshop_cover_b.jpg");
+  }
+  .hash_picdiv {
+    background-image: url("images/HashHomepage4_b.jpg");
+  }
+}
+
 /* Large desktop */
 @media (min-width: 1441px) {
  body { font-size:100%;
